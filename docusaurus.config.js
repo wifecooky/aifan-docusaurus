@@ -72,6 +72,8 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/social-card.png',
+      // Metadatas for your site
+      metadata: [{ name: 'keywords', content: 'programming, tokyo, hangzhou' }],
       navbar: {
         title: 'thewang',
         logo: {
