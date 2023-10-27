@@ -6,12 +6,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'AIFAN',
-  tagline: 'AI is our friend',
+  title: 'thewang',
+  tagline: '整理技术知识，记录生活点滴。',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://aifan.jp',
+  url: 'https://thewang.net',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'wifecooky', // Usually your GitHub org/user name.
-  projectName: 'aifan', // Usually your repo name.
+  projectName: 'thewang', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -73,9 +73,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'AIFAN',
+        title: 'thewang',
         logo: {
-          alt: 'AIFAN Logo',
+          alt: 'thewang logo',
           src: 'img/logo.png',
         },
         items: [
@@ -106,7 +106,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} AIFAN Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} thewang Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -15,7 +15,7 @@ function HomepageHeader() {
         <h1 className={styles.hero_title}>
           <span
             style={{ color: 'var(--ifm-color-primary)' }}
-          >Hi !</span> Here is AIFAN</h1>
+          >Hi !</span> Here is thewang</h1>
         <p className="hero__subtitle">一个 born in杭州，live in东京的码农。<br />整理技术知识，记录生活点滴。</p>
       </div>
       <div className={styles.welcome_svg}>

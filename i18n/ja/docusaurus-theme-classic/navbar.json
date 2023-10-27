@@ -1,10 +1,10 @@
 {
   "title": {
-    "message": "AIFAN",
+    "message": "thewang",
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "AIFAN Logo",
+    "message": "thewang Logo",
     "description": "The alt text of navbar logo"
   },
   "item.label.Blog": {
