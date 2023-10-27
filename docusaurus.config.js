@@ -43,7 +43,7 @@ const config = {
     },
   },
 
-  // Add mermaid plugin
+  // Add plugins here
   markdown: {
     mermaid: true,
   },
@@ -111,6 +111,20 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+
+      // Algolia search
+      algolia: {
+        // The application ID provided by Algolia
+        appId: '22IZDWH9AN',
+
+        // Public API key: it is safe to commit it
+        apiKey: 'e234b4b74966f5c35675e9f048eccd56',
+
+        indexName: 'thewang',
+
+        // Optional: see doc section below
+        contextualSearch: true,
       },
     }),
 };
