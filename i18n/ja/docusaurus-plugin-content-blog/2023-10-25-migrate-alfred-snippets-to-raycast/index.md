@@ -79,6 +79,8 @@ echo "Done! 🎉 You can now import the output.json file to Raycast -> Import Sn
 ```
 </details>
 
+[Github gist](https://gist.github.com/wifecooky/399dd58809778286c857566d8c93b937)からもDL可能です。
+
 :::note
 このスクリプトを実行するには、コマンドラインのJSON処理ツールである`jq`をインストールする必要があります。
 

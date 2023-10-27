@@ -79,6 +79,8 @@ echo "Done! 🎉 You can now import the output.json file to Raycast -> Import Sn
 ```
 </details>
 
+OR download from Github gist: [convert-alfred-snippets-to-raycast-snippets.sh](https://gist.github.com/wifecooky/399dd58809778286c857566d8c93b937)
+
 :::note
 To execute this script, you need to install `jq`, which is a command-line JSON processor tool.
 

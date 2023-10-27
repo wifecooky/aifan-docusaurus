@@ -81,6 +81,8 @@ echo "Done! 🎉 You can now import the output.json file to Raycast -> Import Sn
 ```
 </details>
 
+也可以从Github gist: [convert-alfred-snippets-to-raycast-snippets.sh](https://gist.github.com/wifecooky/399dd58809778286c857566d8c93b937) 下载。
+
 :::note
 该脚本执行需要先安装`jq`，`jq`是一个命令行下的`JSON`处理工具。
 
