@@ -128,6 +128,12 @@ const config = {
         // Optional: see doc section below
         contextualSearch: true,
       },
+      // Mermaid configuration
+      mermaid: {
+        options: {
+          gitGraph: { rotateCommitLabel: false },
+        },
+      },
     }),
 };
 

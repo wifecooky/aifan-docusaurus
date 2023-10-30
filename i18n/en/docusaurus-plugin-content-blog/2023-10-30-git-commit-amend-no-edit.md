@@ -10,7 +10,7 @@ images: [img/social-card.png]
 
 ## `git commit --amend --no-edit`
 
-当你觉得你已经把某个 issue 修改好了，可实际上你没能一次性修改好(也许只是有些 typo)；
+When you think you have fixed an issue, but you were not able to fix it completely in one go (perhaps there were just some typos);
 
 ```mermaid
 gitGraph
@@ -21,7 +21,7 @@ gitGraph
 
 **OR**
 
-当你确实已经把某个 issue 修改好了，可你忘记了 add 一些文件时，
+When you really have fixed an issue, but you forgot to add some files,
 
 ```mermaid
 gitGraph
@@ -30,7 +30,7 @@ gitGraph
     commit id: "fixed issue#1 (but forgot to add some files)"
 ```
 
-你可以这么做：
+You can use this:
 
 ```bash
 git add .
@@ -40,11 +40,11 @@ git push -f # 如果你已经 push 过了，需要添加 -f  来强制 push。
 
 :::note
 
-其实我就是为了体验下 mermaidjs 的 gitGraph 功能而写的这篇文章 😄。
+Maybe I just wrote this article to experience the gitGraph feature of mermaidjs 😄.
 
-BTW, gitGraph的commit message默认是rotated的。
+And BTW the commit message of gitGraph is rotated by default.
 
-如果你想要更改成水平的，需要在 docusaurus.config.js 中添加如下配置：
+If you want to change it to horizontal, you need to add the following configuration in docusaurus.config.js:
 
 ```js
 +      mermaid: {
