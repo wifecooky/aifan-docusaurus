@@ -1,8 +1,11 @@
 ---
 slug: Migrate-Alfred-Snippets-to-Raycast
 title: 迁移Alfred的snippets到Raycast
+description: Migration Alfred's snippets to Raycast
 authors: [wifecooky]
 tags: [alfred, snippets, raycast]
+keywords: [alfred, snippets, raycast]
+images: [img/social-card.png]
 ---
 
 ## 0. 背景
