@@ -66,4 +66,4 @@ LRC 歌词：
 思い出に変えてください (融入记忆的海洋)
 ```
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EnHC00hUPtA?si=RfKPvevwX0nZ7ie8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/EnHC00hUPtA?si=RfKPvevwX0nZ7ie8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
