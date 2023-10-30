@@ -5,7 +5,7 @@ description: letter song to 10 years later
 authors: [wifecooky]
 tags: [music]
 keywords: [music]
-images: [img/social-card.png]
+images: [https://img.youtube.com/vi/EnHC00hUPtA/0.jpg]
 ---
 
 刚过了不惑之年，有点感伤，碰巧听到这首歌，很有感触。
@@ -15,7 +15,7 @@ images: [img/social-card.png]
 LRC 歌词：
 
 ```txt
-曲名 : letter song
+曲名 : letter song (10年後の私へ)
 作词 : doriko
 作曲 : doriko
 好きな人と歩いた場所も (曾和喜欢的人一起走过的地方)
@@ -66,4 +66,6 @@ LRC 歌词：
 思い出に変えてください (融入记忆的海洋)
 ```
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/EnHC00hUPtA?si=RfKPvevwX0nZ7ie8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="youtube">
+    <iframe width="100%" height="400" src="https://www.youtube.com/embed/EnHC00hUPtA?si=RfKPvevwX0nZ7ie8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
