@@ -35,7 +35,8 @@ Alfred 3 の collections は一括でエクスポートすることができな�
 エクスポートした`Alfred`のスニペットファイルを新しいフォルダに入れます。
 以下の内容で`convert-alfred-snippets-to-raycast-snippets.sh`ファイルを作成します。
 
-<details><summary>convert-alfred-snippets-to-raycast-snippets.sh</summary>
+<details>
+<summary>convert-alfred-snippets-to-raycast-snippets.sh</summary>
 
 ```bash
 #!/bin/sh -e

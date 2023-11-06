@@ -35,7 +35,8 @@ Create a new folder and place the exported `Alfred` snippet files in it.
 
 Then, create a file named `convert-alfred-snippets-to-raycast-snippets.sh` in this folder, with the following content:
 
-<details><summary>convert-alfred-snippets-to-raycast-snippets.sh</summary>
+<details>
+<summary>convert-alfred-snippets-to-raycast-snippets.sh</summary>
 
 ```bash
 #!/bin/sh -e

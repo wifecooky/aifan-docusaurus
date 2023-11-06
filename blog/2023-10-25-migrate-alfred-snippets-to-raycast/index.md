@@ -40,7 +40,9 @@ Alfred 3 的 collections 不支持批量导出，所以需要一个一个导出�
 
 然后在这个文件夹里面新建一个 `convert-alfred-snippets-to-raycast-snippets.sh` 文件，内容如下：
 
-<details><summary>convert-alfred-snippets-to-raycast-snippets.sh</summary>
+<details>
+
+<summary>convert-alfred-snippets-to-raycast-snippets.sh</summary>
 
 ```bash
 #!/bin/sh -e
