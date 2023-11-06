@@ -10,10 +10,6 @@ images: [https://docusaurus.io/img/docusaurus_keytar.svg]
 
 ## Update Docusaurus to v3
 
-[Docuaurus v3](https://docusaurus.io/blog/releases/3.0) 已经发布了，
-官方提供了[升级指南](https://docusaurus.io/docs/migration/v3)，
-这里还是记录一下升级过程吧。😄
-
 [Docuaurus v3](https://docusaurus.io/blog/releases/3.0) has been released, here is the [migration guide](https://docusaurus.io/docs/migration/v3) provided by the official.
 
 I record the upgrade process here that may help you save some time. 😄
