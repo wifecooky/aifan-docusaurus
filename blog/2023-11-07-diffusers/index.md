@@ -34,12 +34,12 @@ images: [https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/34/d3/37/34
 :::danger
 
 下面的图片有点恐怖哦。。。 😨
+而且我都是我重复多次，选相对好的结果。
 
 :::
 
 * Prompt: Japanese beauty
 * Model: `stabilityai/stable-diffusion-2-base`
-
 
 ![img](japanese_beauty.png)
 
@@ -47,3 +47,13 @@ images: [https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/34/d3/37/34
 * Model: `stabilityai/stable-diffusion-2-base`
 
 ![img](chinese_beauty.png)
+
+* Prompt: Korean beauty
+* Model: `stabilityai/stable-diffusion-2-base`
+
+![img](korean_beauty.png)
+
+* Prompt: American beauty
+* Model: `stabilityai/stable-diffusion-2-base`
+
+![img](american_beauty.png)
