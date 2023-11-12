@@ -94,6 +94,13 @@ const config = {
             type: 'localeDropdown',
             position: 'right',
           },
+          // Weekly docs
+          {
+            type: 'docSidebar',
+            sidebarId: 'weeklySidebar',
+            label: 'Weekly',
+            position: 'left',
+          },
         ],
       },
       footer: {
@@ -134,6 +141,15 @@ const config = {
         options: {
           gitGraph: { rotateCommitLabel: false },
         },
+      },
+
+      // feed options
+      feedOptions: {
+        type: 'all',
+        title: 'thewang',
+        description: '整理技术知识，记录生活点滴。',
+        link: 'https://thewang.net',
+        language: 'zh-CN',
       },
     }),
 };
