@@ -101,6 +101,12 @@ const config = {
             label: 'Weekly',
             position: 'left',
           },
+          // tags menu
+          {
+            to: '/blog/tags',
+            label: 'Tags',
+            position: 'left',
+          },
         ],
       },
       footer: {
