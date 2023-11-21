@@ -83,7 +83,7 @@ stable-diffusion-webui 默认没有启用 `VAE`，需要手动启用。
 * ADetailer 的作用是什么？
   * ADetailer 是一个插件，对模型生成的图片中的手部（比如6 手指问题）、脸部的变形等问题进行处理，使得生成的图片更加真实。
 * 为什么要用 VAE？
-  * [VAE(Variational Autoencoder, 变分自编码器)](https://zh.wikipedia.org/wiki/变分自编码器) 是一种算法插件，它能让整个图片变亮，使眼睛等地方模糊的部分更清晰明亮，使得生成的图片更加有质感。
+  * [VAE(Variational Autoencoder, 变分自编码器)](https://zh.wikipedia.org/wiki/变分自编码器) 是一种算法插件，**加强图片的清晰度和色彩饱和度**， 使得生成的图片更加有质感。
     比较一下用 VAE 和不用 VAE 的效果就能看出来。
     ![img](sd-vae-comparison.jpeg)
 
