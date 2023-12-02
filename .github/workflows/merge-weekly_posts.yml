@@ -1,0 +1,39 @@
+name: Merge Weekly Posts Branches
+
+on:
+  schedule:
+    - cron: "30 15 * * sat" # Every Saturday at 15:30 UTC  (00:30 AM jst)
+jobs:
+  merge_weekly_branch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Git
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+
+      - name: Merge weekly branches
+        run: |
+          # Get the current date in the format 'YYYY-MM-DD'
+          current_date=$(date +"%Y-%m-%d")
+
+          # Construct the branch name
+          branch_name="weekly/${current_date}"
+
+          # Check if the branch exists
+          if git show-ref --quiet refs/heads/${branch_name}; then
+            # Checkout main branch
+            git checkout main
+
+            # Merge the weekly branch into main
+            git merge ${branch_name} --no-ff -m "Merge ${branch_name} into main"
+
+            # Push changes to GitHub
+            git push origin main
+          else
+            echo "Weekly branch '${branch_name}' does not exist."
+          fi
