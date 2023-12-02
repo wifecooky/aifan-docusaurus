@@ -1,5 +1,4 @@
 name: Merge Weekly Posts Branches
-
 on:
   schedule:
     - cron: "30 15 * * sat" # Every Saturday at 15:30 UTC  (00:30 AM jst)
