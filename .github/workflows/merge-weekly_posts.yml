@@ -19,7 +19,6 @@ jobs:
         run: |
           # Get the current date in the format 'YYYY-MM-DD'
           # 時差を考慮して日付に1Day足す
-          # 例: 2021-01-01 -> 2021-01-02
           current_date=$(date -v+1d +"%Y-%m-%d")
 
           # Construct the branch name
