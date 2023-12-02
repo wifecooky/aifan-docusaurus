@@ -3,8 +3,8 @@ slug: generate-beauty-with-stable-diffusion-webui
 title: Stable Diffusion WebUI 生成美女篇
 description: 用 Stable Diffusion WebUI 生成美女图片
 authors: [wifecooky]
-tags: [stable-diffusion, VAE, ADetailer]
-keywords: [stable-diffusion, ADetailer, VAE]
+tags: [stable diffusion]
+keywords: [Stable Diffusion WebUI, ADetailer, VAE]
 images: [beauty.jpg]
 ---
 
@@ -76,7 +76,6 @@ stable-diffusion-webui 默认没有启用 `VAE`，需要手动启用。
 
 * 修改了下眼睛部分的 prompt，效果好了点。
     ![img](beauty_generated_with_vae_red_deep_detailed_eyes.png)
-
 
 ## Appendix
 

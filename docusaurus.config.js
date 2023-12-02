@@ -157,6 +157,13 @@ const config = {
         link: 'https://thewang.net',
         language: 'zh-CN',
       },
+      // giscus options
+      giscus: {
+        repo: 'wifecooky/thewang-blog',
+        repoId: 'R_kgDOKkyIvg',
+        category: 'Announcements',
+        categoryId: 'DIC_kwDOKkyIvs4CbcJ1',
+      }
     }),
 };
 
