@@ -1,7 +1,7 @@
 name: Merge Weekly Posts Branches
 on:
   schedule:
-    - cron: "30 16 * * sat" # Every Saturday at 16:30 UTC
+    - cron: "30 16 * * sat" # Every Saturday at 16:30 UTC (1:30 AM JST)
 jobs:
   merge_weekly_branch:
     runs-on: ubuntu-latest
@@ -19,7 +19,7 @@ jobs:
         run: |
           # Get the current date in the format 'YYYY-MM-DD'
           # 時差を考慮して日付に1Day足す
-          current_date=$(date -v+1d +"%Y-%m-%d")
+          current_date=$(date -v+1d +%Y-%m-%d)
 
           # Construct the branch name
           branch_name="weekly/${current_date}"
