@@ -2,6 +2,7 @@ name: Merge Weekly Posts Branches
 on:
   schedule:
     - cron: "30 16 * * sat" # Every Saturday at 16:30 UTC (1:30 AM JST)
+  workflow_dispatch: {}
 jobs:
   merge_weekly_branch:
     runs-on: ubuntu-latest
