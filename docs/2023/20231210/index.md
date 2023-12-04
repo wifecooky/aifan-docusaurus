@@ -10,6 +10,8 @@
 
 ## 本周新闻
 
+### 1. [Django 5.0 released](https://docs.djangoproject.com/en/5.0/releases/5.0/)
+
 ## 效率工具
 
 ### 1. [Excalidraw](https://excalidraw.com/)
@@ -129,3 +131,7 @@ mercari 为了解决这个问题，开发了 [mercari/go-bps](https://github.com
 > Insect: 😨
 
 https://www.youtube.com/shorts/tKmjlR-IRW4
+
+### 3. AI版黄家驹唱 灌篮高手主题曲 "只到世界的尽头"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uCNAvgjaKQw?si=-Nj3MVhbDTM_XxLD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
