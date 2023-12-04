@@ -10,7 +10,7 @@
 
 ## 本周新闻
 
-## 一些有趣的工具
+## 效率工具
 
 ### 1. [Excalidraw](https://excalidraw.com/)
 
@@ -24,7 +24,15 @@ how git work in sequence diagram
 
 ![img](Excalidraw-git-work.png)
 
-## 一些有趣的文章
+### 2. Raycast插件： [Year in Progress](https://www.raycast.com/thomas/year-in-progress)
+
+显示今年已经过了多少天，还剩多少天。
+
+时刻提醒自己时间的宝贵。😄
+
+![img](Raycast-Year-in-Progress.png)
+
+## 技术知识
 
 ### 1. [わかりやすい説明のための 10 の鉄則（中文：简单易懂的表达的 10 条原则）](https://speakerdeck.com/e869120/wakariyasuisetsumei-10-tessoku)
 
@@ -98,14 +106,26 @@ mercari 为了解决这个问题，开发了 [mercari/go-bps](https://github.com
 
 <blockquote class="twitter-tweet"><p lang="zh" dir="ltr">AI英语老师 <a href="https://t.co/l71SvqaCum">pic.twitter.com/l71SvqaCum</a></p>&mdash; 瞎玩菌 (@Blind___Gamer) <a href="https://twitter.com/Blind___Gamer/status/1731307112922566863?ref_src=twsrc%5Etfw">December 3, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-## 一些有趣的句子
-
-## 一些有趣的图片
-
-## 日本生活
+## 生活趣味
 
 ### 1. 日本的[故乡纳税](https://ja.wikipedia.org/wiki/ふるさと納税)
 
 喜欢户外产品的朋友，可以看看 [新潟県 三条市](https://item.rakuten.co.jp/f152048-sanjo/) 的产品。
 
 ![img](https://image.rakuten.co.jp/f152048-sanjo/cabinet/sanjof/10000_2/imgrc0099211089.jpg)
+
+### 2. Shrike (伯劳鸟🐦‍) 是怎么捕食有毒的猎物的
+
+![img](how-shrike-eat-toxic-insects.png)
+
+有一种鸟叫做 Shrike (伯劳鸟🐦‍)，它会把在捕食到有毒的猎物，
+
+会把猎物的身体刺穿到像树枝等尖锐的东西上，等待猎物的毒素挥发掉，再回来吃掉猎物。
+
+> Insect: "I'm toxic"
+>
+> Shrike: "I know" 👀
+>
+> Insect: 😨
+
+https://www.youtube.com/shorts/tKmjlR-IRW4
