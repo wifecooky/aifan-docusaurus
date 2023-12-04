@@ -94,6 +94,10 @@ mercari 为了解决这个问题，开发了 [mercari/go-bps](https://github.com
 
 > Reference: [料率計算における小数点数の扱いについて](https://engineering.mercari.com/blog/entry/20201203-basis-point/)
 
+### 5. 用 ChatGPT 学习英语
+
+<blockquote class="twitter-tweet"><p lang="zh" dir="ltr">AI英语老师 <a href="https://t.co/l71SvqaCum">pic.twitter.com/l71SvqaCum</a></p>&mdash; 瞎玩菌 (@Blind___Gamer) <a href="https://twitter.com/Blind___Gamer/status/1731307112922566863?ref_src=twsrc%5Etfw">December 3, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## 一些有趣的句子
 
 ## 一些有趣的图片
