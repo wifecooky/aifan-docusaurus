@@ -12,6 +12,20 @@
 
 ### 1. [Django 5.0 released](https://docs.djangoproject.com/en/5.0/releases/5.0/)
 
+### 2. 阿里巴巴智能计算研究院发布了[Animate Anyone](https://github.com/HumanAIGC/AnimateAnyone)，一个可以把静态图片和预设动作转换成动画的AI工具
+
+阿里巴巴发布了该工具的论文和演示视频，但是没有开源代码。
+
+结果过了几天，字节（ByteDance）直接就放出了类似的项目并提供了代码和演示。
+
+* 项目及演示：https://showlab.github.io/magicanimate/
+* 论文：https://arxiv.org/abs/2311.16498
+* 源码：https://github.com/magic-research/magic-animate
+* Huggingface在线测试： https://huggingface.co/spaces/zcxu-eric/magicanimate
+* Colab在线测试：https://colab.research.google.com/github/camenduru/MagicAnimate-colab/blob/main/MagicAnimate_colab.ipynb
+
+> Reference: https://twitter.com/xiaohuggg/status/1731868943340707855
+
 ## 效率工具
 
 ### 1. [Excalidraw](https://excalidraw.com/)
@@ -107,6 +121,16 @@ mercari 为了解决这个问题，开发了 [mercari/go-bps](https://github.com
 ### 5. 用 ChatGPT 学习英语
 
 <blockquote class="twitter-tweet"><p lang="zh" dir="ltr">AI英语老师 <a href="https://t.co/l71SvqaCum">pic.twitter.com/l71SvqaCum</a></p>&mdash; 瞎玩菌 (@Blind___Gamer) <a href="https://twitter.com/Blind___Gamer/status/1731307112922566863?ref_src=twsrc%5Etfw">December 3, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## 语言学习
+
+### 1. 日语： 栄枯盛衰 (えいこせいすい)
+
+栄枯盛衰 (えいこせいすい) 是日语中的四字熟语，就字面意思 😸。
+
+例子： フロントエンド（技術）は栄枯盛衰早すぎてやばい。
+意思： 前端（技术）的兴衰太快了，太可怕了。
+> 引用自 同事语录
 
 ## 生活趣味
 
