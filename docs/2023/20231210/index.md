@@ -54,6 +54,16 @@ how git work in sequence diagram
 
 ![img](Raycast-Year-in-Progress.png)
 
+### 3. Better Go Playground: goplay.tools
+
+Golang 官方提供的 [Go Playground](https://play.golang.org/) 不是很好用，比如 format 代码会把 3rd party 包去掉。
+
+[goplay.tools](https://goplay.tools/) 是一个更好用的 Go Playground（[而且开源](https://github.com/x1unix/go-playground)），除了官方的 Go Playground的功能外，还支持了以下功能：
+
+* 支持下载 3rd party 的包
+* 可选的编程字体：Fira Code, JetBrains Mono等
+* 支持 VIM 模式
+
 ## 技术知识
 
 ### 1. [わかりやすい説明のための 10 の鉄則（中文：简单易懂的表达的 10 条原则）](https://speakerdeck.com/e869120/wakariyasuisetsumei-10-tessoku)
