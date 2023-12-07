@@ -26,6 +26,12 @@
 
 > Reference: https://twitter.com/xiaohuggg/status/1731868943340707855
 
+### 3. 美国国防部长雷蒙多直接点名英伟达，要求英伟达停止向中国出售芯片
+
+美国国防部长雷蒙多警告英伟达等芯片公司，不要企图通过围绕分界线重新设计芯片来向中国出售。
+
+![img](amercia-ask-nvdia-ai-chip-export-control.png)
+
 ## 效率工具
 
 ### 1. [Excalidraw](https://excalidraw.com/)
@@ -159,3 +165,10 @@ https://www.youtube.com/shorts/tKmjlR-IRW4
 ### 3. AI版黄家驹唱 灌篮高手主题曲 "只到世界的尽头"
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uCNAvgjaKQw?si=-Nj3MVhbDTM_XxLD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+### 4. 艺术之家父母是怎么催孩子结婚的😄
+
+![img](yishuzhijiacuihun.png)
+
+https://youtube.com/shorts/6Bv69KwIXUA?si=VHomTCSDwJkHtpS5
