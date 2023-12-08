@@ -45,32 +45,31 @@ import (
 )
 
 type User struct {
-    Name string `json:"name,order:3"`
-    Age int `json:"age,order:2"`
-    Score int `json:"score,order:1"`
+    Name  string `json:"name,order:3"`
+    Age   int    `json:"age,order:2"`
+    Score int    `json:"score,order:1"`
 }
 
 type Address struct {
-    City string `json:"city,order:10"`
-    Street string `json:"street,order:9"`
+    City    string `json:"city,order:10"`
+    Street  string `json:"street,order:9"`
     ZipCode string `json:"zip_code,order:8"`
 }
 
 func main() {
-    user: = User {
-        Name: "Wen",
-        Age: 30,
-        Score: 100
+    user := User{
+        Name:  "Wen",
+        Age:   30,
+        Score: 100,
     }
-    address: = Address {
-        City: "Hangzhou",
-        Street: "XiHuDaDao",
-        ZipCode: "10001"
+    address := Address{
+        City:    "Hangzhou",
+        Street:  "XiHuDaDao",
+        ZipCode: "10001",
     }
 
     // User構造体を指定した順序でJSONに変換
-        userJSON,
-    err: = MarshalJSONWithOrder(user)
+    userJSON, err := MarshalJSONWithOrder(user)
     if err != nil {
         fmt.Println("Error:", err)
         return
@@ -78,8 +77,7 @@ func main() {
     fmt.Println("User JSON:", string(userJSON))
 
     // Address構造体を指定した順序でJSONに変換
-    addressJSON,
-    err: = MarshalJSONWithOrder(address)
+    addressJSON, err := MarshalJSONWithOrder(address)
     if err != nil {
         fmt.Println("Error:", err)
         return
@@ -91,21 +89,21 @@ func main() {
 // MarshalJSONWithOrder は構造体を指定した順序でJSONに変換する
 // 構造体での指定方法： `json:"{struct field name},order:{integer}"`
 // 指定例： `json:"name,order:10"`
-func MarshalJSONWithOrder(obj interface {})([] byte, error) {
-    val: = reflect.ValueOf(obj)
-    typ: = reflect.TypeOf(obj)
+func MarshalJSONWithOrder(obj interface{}) ([]byte, error) {
+    val := reflect.ValueOf(obj)
+    typ := reflect.TypeOf(obj)
 
     // ソート用のスライス
-    var fields[] fieldWithOrder
+    var fields []fieldWithOrder
 
     // フィールドの数だけループ
-    for i: = 0;i < val.NumField();i++{
-        fieldName: = typ.Field(i).Name
+    for i := 0; i < val.NumField(); i++ {
+        fieldName := typ.Field(i).Name
 
-            order: = getTagValue(typ.Field(i), "json", "order")
-        fields = append(fields, fieldWithOrder {
-            Name: fieldName,
-            Order: order
+        order := getTagValue(typ.Field(i), "json", "order")
+        fields = append(fields, fieldWithOrder{
+            Name:  fieldName,
+            Order: order,
         })
     }
 
@@ -116,33 +114,32 @@ func MarshalJSONWithOrder(obj interface {})([] byte, error) {
 
     // ソート後の順序に従ってJSONを生成
     //result := orderedmap.New[string, any]()
-    result: = orderedmap.New()
-    for _,
-    f: = range fields {
+    result := orderedmap.New()
+    for _, f := range fields {
         //result[f.Name] = val.FieldByName(f.Name).Interface()
         result.Set(f.Name, val.FieldByName(f.Name).Interface())
     }
 
     // マーシャリング
-        return json.Marshal(result)
+    return json.Marshal(result)
 }
 
 // getTagValue は指定されたフィールドの指定されたタグの値を取得する
 func getTagValue(field reflect.StructField, tag string, tagField string) int {
-    tagValue, _: = field.Tag.Lookup(tag)
+    tagValue, _ := field.Tag.Lookup(tag)
 
     // Split the tag string by ","
-    tagParts: = strings.Split(tagValue, ",")
+    tagParts := strings.Split(tagValue, ",")
 
     // Iterate through the tag parts to find the "order" value
-    res: = -1
-    for _, part: = range tagParts {
+    res := -1
+    for _, part := range tagParts {
         // Check if the part starts with "order:"
-        if strings.HasPrefix(part, "order:") {
+        prefix := fmt.Sprintf("%s:", tagField)
+        if strings.HasPrefix(part, prefix) {
             // Extract the numeric value after "order:"
-            orderStr: = strings.TrimPrefix(part, "order:")
-            order,
-            err: = strconv.Atoi(orderStr)
+            orderStr := strings.TrimPrefix(part, prefix)
+            order, err := strconv.Atoi(orderStr)
             if err == nil {
                 res = order
             }
@@ -154,9 +151,10 @@ func getTagValue(field reflect.StructField, tag string, tagField string) int {
 
 // fieldWithOrder はソート用の構造体
 type fieldWithOrder struct {
-    Name string
+    Name  string
     Order int
 }
+
 ```
 
 ## NOTE
