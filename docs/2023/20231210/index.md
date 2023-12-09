@@ -74,6 +74,14 @@ Golang 官方提供的 [Go Playground](https://play.golang.org/) 不是很好用
 * 可选的编程字体：Fira Code, JetBrains Mono等
 * 支持 VIM 模式
 
+### 4. 截图/贴图工具: [PixPin](https://pixpinapp.com/)
+
+截图工具也内卷的厉害😄。
+
+PixPin 是一个截图/贴图工具，现在只支持支持 Windows，Mac版本即将推出。
+
+![img](pixpinapp.com.png)
+
 ## 技术知识
 
 ### 1. [わかりやすい説明のための 10 の鉄則（中文：简单易懂的表达的 10 条原则）](https://speakerdeck.com/e869120/wakariyasuisetsumei-10-tessoku)
