@@ -32,6 +32,16 @@
 
 ![img](amercia-ask-nvdia-ai-chip-export-control.png)
 
+### 4. Meta 开源了它们的样式系统 StyleX
+
+它们整个产品都使用了这套样式系统，包括：Facebook，Instagram，Whatsapp 等。
+
+在官网的文章中，有一篇 [Thinking in StyleX](https://stylexjs.com/docs/learn/thinking-in-stylex/) 详细阐述了为什么 StyleX 会存在，
+
+现在的BEM/Utility Classes 存在的问题以及解决了什么问题，值得大家好好读下。
+
+> [Reference](https://twitter.com/vikingmute/status/1733304660042383659)
+
 ## 效率工具
 
 ### 1. [Excalidraw](https://excalidraw.com/)
