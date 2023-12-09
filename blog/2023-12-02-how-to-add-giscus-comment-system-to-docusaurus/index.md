@@ -5,7 +5,7 @@ description: 介绍如何将Giscus评论系统加入到您的Docusaurus项目中
 authors: [wifecooky]
 tags: [Docusaurus]
 keywords: [Docusaurus, Giscus评论系统]
-images: []
+images: [docusaurus_cover.svg]
 ---
 
 ## 背景
@@ -62,7 +62,6 @@ flowchart LR
 
     restart[3.重启Docusaurus] --> e(End)
 ```
-
 
 ### 1. 配置 Giscus
 
