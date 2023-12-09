@@ -28,27 +28,22 @@ ECS Exec 把 SSM Agent 绑定到容器，从而可以通过 Systems Manager （S
 
 ## 脚本
 
-```bash {29-30} title="connect-to-aws-ecs.sh" showLineNumbers
+```bash {25-26} title="connect-to-aws-ecs.sh" showLineNumbers
 #!/bin/bash -eu
-
-###################################################
-# macOS中连接到 AWS ECS Fargate 容器的脚本
-###################################################
 
 # check if aws-cli is installed
 if ! type aws >/dev/null 2>&1; then
     echo "aws-cli is not installed"
     echo "installing aws-cli...."
     brew install awscli
-    echo "aws-cli is installed successfully. please run this script again after set your credentials by 'aws configure' command"
-    exit 1
+    echo "aws-cli is installed successfully. please set your credentials by 'aws configure' command"
 fi
 
 # check if session-manager-plugin is installed
 if ! type session-manager-plugin >/dev/null 2>&1; then
     echo "session-manager-plugin is not installed"
     echo "installing session-manager-plugin...."
-    # session-manager-pluginをダウンロードして解凍
+    # Download and unzip the Session Manager plugin installer
     mkdir -p $HOME/session-manager-plugin/bin
     curl "https://s3.amazonaws.com/session-manager-downloads/plugin/latest/mac/sessionmanager-bundle.zip" -o "$HOME/session-manager-plugin/bin/sessionmanager-bundle.zip"
     unzip -d $HOME/session-manager-plugin/bin $HOME/session-manager-plugin/bin/sessionmanager-bundle.zip
@@ -57,28 +52,47 @@ if ! type session-manager-plugin >/dev/null 2>&1; then
     echo "session-manager-plugin is installed successfully."
 fi
 
+# set your container name and cluster name
 container_name="your-container-name"
 cluster_name="your-ecs-cluster-name"
 
-# Get the task ARN
+# 执行脚本时，使用 `--profile` 指定的 AWS 配置文件
+aws_profile="default"
+while [ "$#" -gt 0 ]; do
+    case "$1" in
+    --profile=*)
+        aws_profile="${1#*=}"
+        ;;
+    *)
+        # exit when unknown option is specified
+        echo "未知のオプション: $1"
+        exit 1
+        ;;
+    esac
+    shift
+done
+echo "aws_profile: $aws_profile"
+
+# fetch task arn
 task_arn=$(aws ecs list-tasks \
+    --profile "$aws_profile" \
     --cluster $cluster_name \
     --desired-status RUNNING \
     --query 'taskArns[0]' \
     --output text)
 
-# タスクIDを抽出
-task_id=$(echo $task_arn | awk -F/ '{print $NF}')
+# spit task id from task arn
+task_id=$(echo "$task_arn" | awk -F/ '{print $NF}')
 echo "task_id: $task_id"
 
-# Session Managerを使用してコンテナに入る
+# enter container with session manager
 aws ecs execute-command \
+    --profile "$aws_profile" \
     --cluster $cluster_name \
-    --task $task_id \
+    --task "$task_id" \
     --container $container_name \
     --command "/bin/sh" \
-    --interactive \
-    --profile default
+    --interactive
 ```
 
 ## 使用方法
