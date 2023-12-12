@@ -51,3 +51,14 @@ ByteByteGo 出品,使用视觉效果和简单术语解释复杂的系统。
 ## 语言学习
 
 ## 生活趣味
+
+### 1. [女子排队时礼让孕妇，自己退到队尾又被依次礼让 #暖心 #正能量](https://www.youtube.com/shorts/Aa37JeaqSZY)
+
+我相信这个世界上还是有很多善良的人的。
+![img](女子排队礼让孕妇.jpeg)
+
+### 2. 资生堂的名字原来来源于易经
+
+![img](資生堂名字由来.jpeg)
+
+> 引用自[资生堂官网](https://corp.shiseido.com/jp/company/company-name/)
