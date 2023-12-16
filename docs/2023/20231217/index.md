@@ -18,6 +18,8 @@
 
 ![img](baike_zhouhaimei.png)
 
+TVB 也出了回顾她的[影视生涯的影片](https://www.youtube.com/watch?v=k6MHemPBAFE)。
+
 ## 效率工具
 
 ### 1. [Meta 的图片生成式 AI 工具](imagine.meta.com)
