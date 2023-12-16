@@ -100,6 +100,8 @@ ByteByteGo 出品,使用视觉效果和简单术语解释复杂的系统。
 
 ### 4. 偷鱼的猫咪
 
+好可爱的猫咪，不过图片应该是合成的吧。
+
 ![img](偷鱼的猫咪.jpeg)
 
 > [Reference](https://twitter.com/tyomateee/status/1734561133195919561)
