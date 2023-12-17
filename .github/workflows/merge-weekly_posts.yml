@@ -25,7 +25,7 @@ jobs:
           branch_name="weekly/${current_date}"
 
           # Check if the branch exists
-          if git show-ref --quiet refs/heads/${branch_name}; then
+          if git rev-parse --verify ${branch_name} >/dev/null 2>&1; then
             # Checkout main branch
             git checkout main
 
