@@ -22,7 +22,7 @@ TVB 也出了回顾她的[影视生涯的影片](https://www.youtube.com/watch?v
 
 ## 效率工具
 
-### 1. [Meta 的图片生成式 AI 工具](imagine.meta.com)
+### 1. Meta 的图片生成式 AI 工具: imagine
 
 截止（2023-12-09）好像只有美国可以用。
 
