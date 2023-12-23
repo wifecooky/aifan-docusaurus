@@ -50,15 +50,34 @@ const config = {
   },
   themes: ['@docusaurus/theme-mermaid'],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        createRedirects(existingPath) {
+          if (existingPath.includes('/weekly')) {
+            // Redirect from /docs to /weekly
+            return [
+              existingPath.replace('/weekly', '/docs'),
+            ];
+          }
+          return undefined; // Return a falsy value: no redirect created
+        },
+      },
+    ]
+  ],
+
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: 'weekly',
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
+          sidebarCollapsed: false,
         },
         blog: {
           showReadingTime: true,
@@ -98,9 +117,10 @@ const config = {
           },
           // Weekly docs
           {
+            to: '/weekly',
             type: 'docSidebar',
             sidebarId: 'weeklySidebar',
-            label: 'Weekly',
+            label: '遥遥周刊',
             position: 'left',
           },
           // tags menu
