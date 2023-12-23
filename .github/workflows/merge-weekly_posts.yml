@@ -2,6 +2,7 @@ name: Merge Weekly Posts Branches
 on:
   schedule:
     - cron: "30 16 * * sat" # Every Saturday at 16:30 UTC (1:30 AM JST)
+  workflow_dispatch:
 jobs:
   merge_weekly_branch:
     runs-on: ubuntu-latest
@@ -25,7 +26,7 @@ jobs:
           branch_name="weekly/${current_date}"
 
           # Check if the branch exists
-          if git rev-parse --verify ${branch_name} >/dev/null 2>&1; then
+          if [[ -n "$(git ls-remote origin $branch_name)" ]]; then
             # Checkout main branch
             git checkout main
 
