@@ -21,7 +21,7 @@ Docuaurus 的文档（`Docs`）默认的 URL 路径名是 `/docs`，如：`https
 - 找到 `docs` 的配置项，添加 `routeBasePath` 属性，值为你想要的 URL 路径名，如：`api`。
 - 找到 `navbar` 的配置项，
 
-```js {5} title="docusaurus.config.js" showLineNumbers
+```js {7} title="docusaurus.config.js" showLineNumbers
   presets: [
     [
       'classic',
