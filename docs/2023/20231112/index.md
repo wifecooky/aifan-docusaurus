@@ -1,6 +1,11 @@
-# 2023-11-12
+---
+id: 20231112
+title: 遥遥周刊 第1期
+tags:
+  - 遥遥周刊
+---
 
-* 封面图: [高燈篭 常燈明台](https://www.google.com/maps/place/%E9%AB%98%E7%87%88%E7%AF%AD+%E5%B8%B8%E7%87%88%E6%98%8E%E5%8F%B0/@35.6947757,139.7487813,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipP8gDNc7eDOEp1JJRMd2JkEYbQ45FWcP69NIpD2!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipP8gDNc7eDOEp1JJRMd2JkEYbQ45FWcP69NIpD2%3Dw224-h398-k-no!7i2268!8i4032!4m12!1m2!2m1!1z5Lmd5q615LiLIOODqeODs-ODlw!3m8!1s0x60188c6bb68eb8cd:0x9d258873e70f7002!8m2!3d35.6947757!4d139.7487813!10e5!14m1!1BCgIgAQ!16s%2Fg%2F11c5g40q6j) : 好像是明治时代的招魂灯。
+- 封面图: [高燈篭 常燈明台](https://www.google.com/maps/place/%E9%AB%98%E7%87%88%E7%AF%AD+%E5%B8%B8%E7%87%88%E6%98%8E%E5%8F%B0/@35.6947757,139.7487813,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipP8gDNc7eDOEp1JJRMd2JkEYbQ45FWcP69NIpD2!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipP8gDNc7eDOEp1JJRMd2JkEYbQ45FWcP69NIpD2%3Dw224-h398-k-no!7i2268!8i4032!4m12!1m2!2m1!1z5Lmd5q615LiLIOODqeODs-ODlw!3m8!1s0x60188c6bb68eb8cd:0x9d258873e70f7002!8m2!3d35.6947757!4d139.7487813!10e5!14m1!1BCgIgAQ!16s%2Fg%2F11c5g40q6j) : 好像是明治时代的招魂灯。
 
 ![img](kudan_tourou.png)
 
@@ -21,9 +26,9 @@
 
 喜欢单独的 App 的话， [**ImageOptim**](https://imageoptim.com/command-line.html) 也是个不错的选择。
 
-它还有个第三方包装的 CLI工具 [**ImageOptim-CLI**](https://github.com/JamieMason/ImageOptim-CLI),
+它还有个第三方包装的 CLI 工具 [**ImageOptim-CLI**](https://github.com/JamieMason/ImageOptim-CLI),
 之后有时间考虑写个 Raycast 的插件调用它应该蛮方便的。
-它可以通过 `brew` 和 `npm` 安装， 但是 `brew` 安装方式好像只支持x86_64，当然可以先安装 `Rosetta` 。
+它可以通过 `brew` 和 `npm` 安装， 但是 `brew` 安装方式好像只支持 x86_64，当然可以先安装 `Rosetta` 。
 **建议还是用 `npm` 安装**。
 
 ```bash
@@ -56,7 +61,7 @@ npm install -g imageoptim-cli
 
 一个命令行的自动补全插件，可以自动补全命令，参数，文件名，路径等等。
 
-还支持插件， 配置dotfiles仓库。
+还支持插件， 配置 dotfiles 仓库。
 
 现在好像已经被 [AWS 收购了](https://fig.io/blog/post/fig-joins-aws)，不知道以后会不会收费。😅
 

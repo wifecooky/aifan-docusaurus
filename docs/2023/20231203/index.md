@@ -1,4 +1,9 @@
-# 2023-12-03
+---
+id: 20231203
+title: 遥遥周刊 第3期
+tags:
+  - 遥遥周刊
+---
 
 ## 封面图 : 查理·芒格 ![img](https://upload.wikimedia.org/wikipedia/commons/c/ca/Charlie_Munger.jpg)
 
@@ -6,17 +11,17 @@
 
 ### 1. 基辛格去世，享年 100 岁
 
-本来以为芒格去世是本周最大的新闻，没想到基辛格（[Henry Kissinger](https://zh.wikipedia.org/zh-cn/亨利·基辛格)）也走了，享年 100 岁。（1923年5月27日—2023年11月29日）
+本来以为芒格去世是本周最大的新闻，没想到基辛格（[Henry Kissinger](https://zh.wikipedia.org/zh-cn/亨利·基辛格)）也走了，享年 100 岁。（1923 年 5 月 27 日—2023 年 11 月 29 日）
 
 ### 2. 查理·芒格去世， 享年 99 岁
 
-2023年11月28日，查理·芒格去世，享年 99 岁。（1924年1月1日—2023年11月28日)
+2023 年 11 月 28 日，查理·芒格去世，享年 99 岁。（1924 年 1 月 1 日—2023 年 11 月 28 日)
 
 传奇的一生，非常励志，没有生活动力的可以看看[他的 WIKI](https://zh.wikipedia.org/zh-cn/查理·芒格)。
 
 ### 3. 拼多多美股市值一度超过阿里巴巴！成为中概股第一
 
-拼多多的股价在 2023年11月30日超过阿里巴巴，市值接近 2000 亿美元，约合 1.4 万亿人民币。
+拼多多的股价在 2023 年 11 月 30 日超过阿里巴巴，市值接近 2000 亿美元，约合 1.4 万亿人民币。
 
 ![img](pdd-vs-alibaba.png)
 
@@ -32,7 +37,7 @@
 
 ![img](milestones-in-modern-chinese-history-a-journey-from-1900-onwards2.png)
 
-再举个例子🌰, 当我输入 `US & China from 1900s` 时, 会生成如下的 Timeline 图:
+再举个例子 🌰, 当我输入 `US & China from 1900s` 时, 会生成如下的 Timeline 图:
 
 ![img](key-events-in-us-china-relations-from-the-1900s.png)
 
@@ -46,7 +51,7 @@
 
 不过估计不久后就会和该网站的其他功能一样, 需要填写 openAI 的 key 才能使用了。
 
-### 3. PAPA又出了介绍 Stable Diffusion 的介绍视频第三集
+### 3. PAPA 又出了介绍 Stable Diffusion 的介绍视频第三集
 
 [Stable Diffusion 零基礎新手入門！Part 3 - 社群繪圖模型 & ControlNet 擴充功能](https://www.youtube.com/watch?v=xMYD0MrSuJc)
 
@@ -54,13 +59,13 @@
 
 ## 一些有趣的文章
 
-### 1. [【完全免费】零成本使用ChatGPT@不良林](https://www.youtube.com/watch?v=yndqfXr_qPg)
+### 1. [【完全免费】零成本使用 ChatGPT@不良林](https://www.youtube.com/watch?v=yndqfXr_qPg)
 
-可以设置多个api key, 来提高并发量。
+可以设置多个 api key, 来提高并发量。
 
 怕[ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)提供的网站不稳定的化，也可以自己部署服务器。
 
-### 2. 阿里巴巴发布的这个只需要单张图片和Openpose 动作就可以让图片动起来的[论文](https://humanaigc.github.io/animate-anyone/)效果很不错
+### 2. 阿里巴巴发布的这个只需要单张图片和 Openpose 动作就可以让图片动起来的[论文](https://humanaigc.github.io/animate-anyone/)效果很不错
 
 ![img](alibaba-animate-anyone.png)
 
@@ -74,7 +79,7 @@
 
 ### 1. 开猿节流
 
-据说现在经济不景气，很多互联网公司要开猿（程序猿🧑‍💻）节流。😄
+据说现在经济不景气，很多互联网公司要开猿（程序猿 🧑‍💻）节流。😄
 
 然后就出现了 阿里云挂完滴滴挂。。。
 

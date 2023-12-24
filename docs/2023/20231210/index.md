@@ -1,6 +1,11 @@
-# 2023-12-10
+---
+id: 20231210
+title: 遥遥周刊 第4期
+tags:
+  - 遥遥周刊
+---
 
-## 封面图 :  ![img](cover.jpg)
+## 封面图 : ![img](cover.jpg)
 
 我一直以为这种花是绣球花的一种，但是好像叫做[马缨丹](https://zh.wikipedia.org/zh-cn/馬纓丹), 别名也称为**五色梅、五彩花**。
 
@@ -12,17 +17,17 @@
 
 ### 1. [Django 5.0 released](https://docs.djangoproject.com/en/5.0/releases/5.0/)
 
-### 2. 阿里巴巴智能计算研究院发布了[Animate Anyone](https://github.com/HumanAIGC/AnimateAnyone)，一个可以把静态图片和预设动作转换成动画的AI工具
+### 2. 阿里巴巴智能计算研究院发布了[Animate Anyone](https://github.com/HumanAIGC/AnimateAnyone)，一个可以把静态图片和预设动作转换成动画的 AI 工具
 
 阿里巴巴发布了该工具的论文和演示视频，但是没有开源代码。
 
 结果过了几天，字节（ByteDance）直接就放出了类似的项目并提供了代码和演示。
 
-* 项目及演示：https://showlab.github.io/magicanimate/
-* 论文：https://arxiv.org/abs/2311.16498
-* 源码：https://github.com/magic-research/magic-animate
-* Huggingface在线测试： https://huggingface.co/spaces/zcxu-eric/magicanimate
-* Colab在线测试：https://colab.research.google.com/github/camenduru/MagicAnimate-colab/blob/main/MagicAnimate_colab.ipynb
+- 项目及演示：https://showlab.github.io/magicanimate/
+- 论文：https://arxiv.org/abs/2311.16498
+- 源码：https://github.com/magic-research/magic-animate
+- Huggingface 在线测试： https://huggingface.co/spaces/zcxu-eric/magicanimate
+- Colab 在线测试：https://colab.research.google.com/github/camenduru/MagicAnimate-colab/blob/main/MagicAnimate_colab.ipynb
 
 > Reference: https://twitter.com/xiaohuggg/status/1731868943340707855
 
@@ -38,7 +43,7 @@
 
 在官网的文章中，有一篇 [Thinking in StyleX](https://stylexjs.com/docs/learn/thinking-in-stylex/) 详细阐述了为什么 StyleX 会存在，
 
-现在的BEM/Utility Classes 存在的问题以及解决了什么问题，值得大家好好读下。
+现在的 BEM/Utility Classes 存在的问题以及解决了什么问题，值得大家好好读下。
 
 > [Reference](https://twitter.com/vikingmute/status/1733304660042383659)
 
@@ -48,7 +53,7 @@
 
 Excalidraw 把他们的文本到图表的功能[开源](https://github.com/excalidraw/excalidraw)了。
 
-举个例子，输入下面的文本，就可以生成下面的图表(付带 Mermaid的code)。
+举个例子，输入下面的文本，就可以生成下面的图表(付带 Mermaid 的 code)。
 
 ```text
 how git work in sequence diagram
@@ -56,7 +61,7 @@ how git work in sequence diagram
 
 ![img](Excalidraw-git-work.png)
 
-### 2. Raycast插件： [Year in Progress](https://www.raycast.com/thomas/year-in-progress)
+### 2. Raycast 插件： [Year in Progress](https://www.raycast.com/thomas/year-in-progress)
 
 显示今年已经过了多少天，还剩多少天。
 
@@ -68,17 +73,17 @@ how git work in sequence diagram
 
 Golang 官方提供的 [Go Playground](https://play.golang.org/) 不是很好用，比如 format 代码会把 3rd party 包去掉。
 
-[goplay.tools](https://goplay.tools/) 是一个更好用的 Go Playground（[而且开源](https://github.com/x1unix/go-playground)），除了官方的 Go Playground的功能外，还支持了以下功能：
+[goplay.tools](https://goplay.tools/) 是一个更好用的 Go Playground（[而且开源](https://github.com/x1unix/go-playground)），除了官方的 Go Playground 的功能外，还支持了以下功能：
 
-* 支持下载 3rd party 的包
-* 可选的编程字体：Fira Code, JetBrains Mono等
-* 支持 VIM 模式
+- 支持下载 3rd party 的包
+- 可选的编程字体：Fira Code, JetBrains Mono 等
+- 支持 VIM 模式
 
 ### 4. 截图/贴图工具: [PixPin](https://pixpinapp.com/)
 
-截图工具也内卷的厉害😄。
+截图工具也内卷的厉害 😄。
 
-PixPin 是一个截图/贴图工具，现在只支持支持 Windows，Mac版本即将推出。
+PixPin 是一个截图/贴图工具，现在只支持支持 Windows，Mac 版本即将推出。
 
 ![img](pixpinapp.com.png)
 
@@ -90,9 +95,9 @@ PixPin 是一个截图/贴图工具，现在只支持支持 Windows，Mac版本�
 
 在大学有效地学习的同时，把自己的心得写成文章和书籍，顺便还能赚钱，真是太棒了。😄
 
-### 2. git支持提交空 commit
+### 2. git 支持提交空 commit
 
-原来git 支持提交空 commit，可以用来触发 CI/CD 的工作流。
+原来 git 支持提交空 commit，可以用来触发 CI/CD 的工作流。
 
 ```bash
 git commit --allow-empty -m "Empty commit to trigger workflow"
@@ -164,6 +169,7 @@ mercari 为了解决这个问题，开发了 [mercari/go-bps](https://github.com
 
 例子： フロントエンド（技術）は栄枯盛衰早すぎてやばい。
 意思： 前端（技术）的兴衰太快了，太可怕了。
+
 > 引用自 同事语录
 
 ## 生活趣味
@@ -174,11 +180,11 @@ mercari 为了解决这个问题，开发了 [mercari/go-bps](https://github.com
 
 ![img](https://image.rakuten.co.jp/f152048-sanjo/cabinet/sanjof/10000_2/imgrc0099211089.jpg)
 
-### 2. Shrike (伯劳鸟🐦‍) 是怎么捕食有毒的猎物的
+### 2. Shrike (伯劳鸟 🐦‍) 是怎么捕食有毒的猎物的
 
 ![img](how-shrike-eat-toxic-insects.png)
 
-有一种鸟叫做 Shrike (伯劳鸟🐦‍)，它会把在捕食到有毒的猎物，
+有一种鸟叫做 Shrike (伯劳鸟 🐦‍)，它会把在捕食到有毒的猎物，
 
 会把猎物的身体刺穿到像树枝等尖锐的东西上，等待猎物的毒素挥发掉，再回来吃掉猎物。
 
@@ -190,11 +196,11 @@ mercari 为了解决这个问题，开发了 [mercari/go-bps](https://github.com
 
 https://www.youtube.com/shorts/tKmjlR-IRW4
 
-### 3. AI版黄家驹唱 灌篮高手主题曲 "只到世界的尽头"
+### 3. AI 版黄家驹唱 灌篮高手主题曲 "只到世界的尽头"
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uCNAvgjaKQw?si=-Nj3MVhbDTM_XxLD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-### 4. 艺术之家父母是怎么催孩子结婚的😄
+### 4. 艺术之家父母是怎么催孩子结婚的 😄
 
 ![img](yishuzhijiacuihun.png)
 
