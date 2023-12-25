@@ -31,7 +31,5 @@ jobs:
           project: ${{ secrets.CF_PAGES_PROJECT  }}
           # Create Slack Incoming webhook and add as variable https://hooks.slack.com/...
           slackWebHook: ${{ secrets.SLACK_WEBHOOK  }}
-          # Add this if you want GitHub Deployments (see below)
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
           # Add this if you want to wait for a deployment triggered by a specfied commit
           commitHash: ${{ steps.push-changes.outputs.commit-hash }}
