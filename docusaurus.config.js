@@ -96,6 +96,12 @@ const config = {
       image: 'img/social-card.png',
       // Metadatas for your site
       metadata: [{ name: 'keywords', content: 'programming, AI, tokyo, hangzhou' }],
+      // Color mode switch
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: true, // 暗黑模式跟随系统
+      },
       navbar: {
         title: 'thewang',
         logo: {
