@@ -11,6 +11,7 @@ on:
     types: [closed]
     paths-ignore:
       - .github/**
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
