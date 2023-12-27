@@ -5,7 +5,7 @@ description: 如何在Golang中无需构造体即可解析JSON数据的方法，
 authors: [wifecooky]
 tags: [Golang, json]
 keywords: [Golang, JSON数据解析, 无构造体解析, Go语言技巧, 数据处理]
-image: "how-to-parse-json-data-without-using-structs-in-golang.jpeg"
+image: "./how-to-parse-json-data-without-using-structs-in-golang.jpeg"
 ---
 
 ## 背景&需求
