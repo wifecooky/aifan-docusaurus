@@ -12,7 +12,7 @@ keywords:
     Github Actions,
     Cloudflare Pages,
   ]
-images: [cover.jpeg]
+image: "cover.jpeg"
 ---
 
 ## 0. 背景&需求

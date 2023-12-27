@@ -5,7 +5,6 @@ description: 怎样自定义和更改Docusaurus的文档（Docs）的URL路径�
 authors: [wifecooky]
 tags: [Docusaurus]
 keywords: [Docusaurus, Change the URL path of docs]
-images: []
 ---
 
 ## 问题

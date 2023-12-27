@@ -5,7 +5,7 @@ description: Update Docusaurus to v3
 authors: [wifecooky]
 tags: [docusaurus]
 keywords: [docusaurus]
-images: [https://docusaurus.io/img/docusaurus_keytar.svg]
+image: "https://docusaurus.io/img/docusaurus_keytar.svg"
 ---
 
 ## Update Docusaurus to v3
@@ -16,7 +16,7 @@ images: [https://docusaurus.io/img/docusaurus_keytar.svg]
 
 ### 升级依赖
 
-* docusaurus.config.js
+- docusaurus.config.js
 
 ```js title="docusaurus.config.js"
 
@@ -35,7 +35,7 @@ images: [https://docusaurus.io/img/docusaurus_keytar.svg]
 
 ```
 
-* package.json
+- package.json
 
 ```json title="package.json"
    "dependencies": {
@@ -79,7 +79,7 @@ npm install
 
 ### 检查 md/mdx 文件
 
-* 官方提供了工具来检查 `md/mdx` 文件中的 `frontmatter` 是否符合 MDX v3。
+- 官方提供了工具来检查 `md/mdx` 文件中的 `frontmatter` 是否符合 MDX v3。
 
 ```bash
 npx docusaurus-mdx-checker
@@ -87,7 +87,7 @@ npx docusaurus-mdx-checker
 
 你可能需要修改一些文件，比如我升级到 v3 后，就遇到了一个格式问题：
 
-* 修改前
+- 修改前
 
 ```md
 <details><summary>xxx</summary>
@@ -95,7 +95,7 @@ npx docusaurus-mdx-checker
 </details>
 ```
 
-* 修改后
+- 修改后
 
 ```md
 <details>

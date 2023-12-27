@@ -5,7 +5,6 @@ description: 使用MermaidJS绘制Gitflow示意图
 authors: [wifecooky]
 tags: [MermaidJS, Gitflow]
 keywords: [MermaidJS, Gitflow]
-images: []
 ---
 
 ## 背景
@@ -17,16 +16,16 @@ images: []
 今天就来记录一下如何使用 mermaid 来绘制 Gitflow 的示意图。
 
 :::tip
-Mermaid是一个基于JavaScript的图表绘制工具，
+Mermaid 是一个基于 JavaScript 的图表绘制工具，
 
 它使用简单的文本描述来定义图表，然后将文本转换为图表。
 
-Mermaid支持流程图、序列图、类图、状态图、Git图、甘特图等多种图表。
+Mermaid 支持流程图、序列图、类图、状态图、Git 图、甘特图等多种图表。
 
 官方还提供了一个[在线编辑器](https://mermaid.live/)。
 :::
 
-## 1. Gitflow的 Mermaid 代码
+## 1. Gitflow 的 Mermaid 代码
 
 ```js
 gitGraph LR:
@@ -53,7 +52,6 @@ commit id: "7:commit-hotfix"
 checkout develop
 merge "hotfix/{ticket_number}" id: "8:merge-hotfix" type: HIGHLIGHT
 ```
-
 
 ## 2. Mermaid 代码的渲染结果
 

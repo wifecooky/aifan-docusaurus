@@ -5,7 +5,6 @@ description: Converting Structure to JSON with Specified Order | Golang
 authors: [wifecooky]
 tags: [Golang, json]
 keywords: [Golang, Structure to JSON]
-images: []
 ---
 
 ## 背景
@@ -165,9 +164,9 @@ type fieldWithOrder struct {
   可以使用 [wk8/go-ordered-map](https://github.com/wk8/go-ordered-map) 或者 [iancoleman/orderedmap](https://github.com/iancoleman/orderedmap)。
   由于后者的性能似乎比较好，代码中采用的是后者。
 
-- **ChatGPT的使用**
+- **ChatGPT 的使用**
 
   代码大部分是用 [ChatGPT](https://chat.openai.com/) 生成的，但是生成的代码中有几个问题，例如上面的 Ordered Map，我尝试让 ChatGPT 修改了几次，都没有成功。
   最后还是自己手动修改了代码。
 
-  感觉 ChatGPT 对于代码的细节部分的理解还有待改善，而且有时候还胡说八道（现阶段生成式AI的通病）。
+  感觉 ChatGPT 对于代码的细节部分的理解还有待改善，而且有时候还胡说八道（现阶段生成式 AI 的通病）。

@@ -4,13 +4,12 @@ title: 一键连接 AWS ECS 的脚本
 description: 一键连接 AWS ECS 的脚本
 authors: [wifecooky]
 tags: [AWS]
-keywords: [AWS,ECS,脚本]
-images: []
+keywords: [AWS, ECS, 脚本]
 ---
 
 ## 背景
 
-最近参与的一个项目，需要经常地进入AWS ECS 的 Fargate 服务中的容器中。
+最近参与的一个项目，需要经常地进入 AWS ECS 的 Fargate 服务中的容器中。
 
 使用 awscli 的 [ECS Exec](https://docs.aws.amazon.com/ja_jp/AmazonECS/latest/userguide/ecs-exec.html) 可以非常方便地连接到运行中的容器。
 
@@ -106,4 +105,4 @@ aws ecs execute-command \
 
 [使用 ECS Exec 访问 Fargate 上的容器](https://qiita.com/okubot55/items/b1fb07b2de08c354275b)
 
-[Amazon ECS Execを使ってみる](https://blog.serverworks.co.jp/ecs-exec)
+[Amazon ECS Exec を使ってみる](https://blog.serverworks.co.jp/ecs-exec)

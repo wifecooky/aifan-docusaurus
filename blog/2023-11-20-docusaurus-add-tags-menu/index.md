@@ -5,7 +5,7 @@ description: 如何为 Docusaurus 博客添加 tags 菜单，以增强博客功�
 authors: [wifecooky]
 tags: [docusaurus]
 keywords: [Docusaurus blog, Docusaurus tags, Docusaurus 博客, Docusaurus 标签]
-images: [https://docusaurus.io/img/docusaurus_keytar.svg]
+image: "https://docusaurus.io/img/docusaurus_keytar.svg"
 ---
 
 ## 背景

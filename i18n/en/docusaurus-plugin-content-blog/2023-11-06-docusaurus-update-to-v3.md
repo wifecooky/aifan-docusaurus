@@ -5,7 +5,7 @@ description: Update Docusaurus to v3
 authors: [wifecooky]
 tags: [docusaurus]
 keywords: [docusaurus]
-images: [https://docusaurus.io/img/docusaurus_keytar.svg]
+image: "https://docusaurus.io/img/docusaurus_keytar.svg"
 ---
 
 ## Update Docusaurus to v3
@@ -16,7 +16,7 @@ I record the upgrade process here that may help you save some time. 😄
 
 ### Upgrade dependencies
 
-* docusaurus.config.js
+- docusaurus.config.js
 
 ```js title="docusaurus.config.js"
 
@@ -35,7 +35,7 @@ I record the upgrade process here that may help you save some time. 😄
 
 ```
 
-* package.json
+- package.json
 
 ```json title="package.json"
    "dependencies": {
@@ -87,7 +87,7 @@ npx docusaurus-mdx-checker
 
 For example, I got a check error after upgrated to v3:
 
-* Before Modified
+- Before Modified
 
 ```md
 <details><summary>xxx</summary>
@@ -95,7 +95,7 @@ For example, I got a check error after upgrated to v3:
 </details>
 ```
 
-* After Modified
+- After Modified
 
 ```md
 <details>

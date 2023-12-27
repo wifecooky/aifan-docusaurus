@@ -4,8 +4,14 @@ title: git commit --amend --no-edit
 description: when you want to amend a commit without changing the commit message
 authors: [wifecooky]
 tags: [git, commit, mermaidjs]
-keywords: [git, commit, change commit, change commit message without changing commit message]
-images: [img/social-card.png]
+keywords:
+  [
+    git,
+    commit,
+    change commit,
+    change commit message without changing commit message,
+  ]
+image: "img/social-card.png"
 ---
 
 ## `git commit --amend --no-edit`
@@ -53,3 +59,4 @@ If you want to change it to horizontal, you need to add the following configurat
 +        },
 +      },
 :::
+```

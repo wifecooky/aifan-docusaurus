@@ -5,7 +5,7 @@ description: letter song to 10 years later
 authors: [wifecooky]
 tags: [music]
 keywords: [music]
-images: [https://img.youtube.com/vi/EnHC00hUPtA/0.jpg]
+image: "https://img.youtube.com/vi/EnHC00hUPtA/0.jpg"
 ---
 
 刚过了不惑之年，有点感伤，碰巧听到这首歌，很有感触。

@@ -4,8 +4,14 @@ title: git commit --amend --no-edit
 description: when you want to amend a commit without changing the commit message
 authors: [wifecooky]
 tags: [git, commit, mermaidjs]
-keywords: [git, commit, change commit, change commit message without changing commit message]
-images: [img/social-card.png]
+keywords:
+  [
+    git,
+    commit,
+    change commit,
+    change commit message without changing commit message,
+  ]
+image: "img/social-card.png"
 ---
 
 ## `git commit --amend --no-edit`
@@ -42,7 +48,7 @@ git push -f # 如果你已经 push 过了，需要添加 -f  来强制 push。
 
 其实我就是为了体验下 mermaidjs 的 gitGraph 功能而写的这篇文章 😄。
 
-BTW, gitGraph的commit message默认是rotated的。
+BTW, gitGraph 的 commit message 默认是 rotated 的。
 
 如果你想要更改成水平的，需要在 docusaurus.config.js 中添加如下配置：
 
@@ -53,3 +59,4 @@ BTW, gitGraph的commit message默认是rotated的。
 +        },
 +      },
 :::
+```

@@ -5,7 +5,6 @@ description: How to effectively reorder structure items and export them to a CSV
 authors: [wifecooky]
 tags: [golang, csv]
 keywords: [golang, CSV, Reorder structure items, Export to CSV]
-images: []
 ---
 
 ## 需求

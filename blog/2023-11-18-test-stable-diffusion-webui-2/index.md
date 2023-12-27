@@ -5,7 +5,7 @@ description: 用 Stable Diffusion WebUI 生成美女图片
 authors: [wifecooky]
 tags: [stable diffusion]
 keywords: [Stable Diffusion WebUI, ADetailer, VAE]
-images: [beauty.jpg]
+image: "beauty.jpg"
 ---
 
 ## Background
@@ -18,9 +18,9 @@ images: [beauty.jpg]
 
 ## 过程
 
-### 1. 获取 prompt和参数
+### 1. 获取 prompt 和参数
 
-Prompts等参数可以在 [这个页面](https://civitai.com/images/3222144) 点击 `Copy Generation data` 复制得到。
+Prompts 等参数可以在 [这个页面](https://civitai.com/images/3222144) 点击 `Copy Generation data` 复制得到。
 
 ```text
 (masterpiece, best quality:1.2), (face focus:1.4), back focus, from behind, blonde hair, long hair, high ponytail, long ponytail, red eyes, long eyelashes, thick eyelashes, looking at viewer, red dress, backless dress, gold trim dress, puffy sleeves, juliet sleeves, long sleeves, red sleeves, (black background:1.2), light particles, blurry, bloom, shiny hair, <lora:Add Detail:0.5>
@@ -40,7 +40,7 @@ Steps: 30, VAE: kl-f8-anime2.vae.pt, Size: 512x768, Seed: 3842746991, Model: Div
 
 stable-diffusion-webui 默认没有启用 `VAE`，需要手动启用。
 
-如下图所示，在 stable-diffusion-webui的 `Settings` 页面，点击 1️⃣ → 2️⃣ , 添加 `sd_vae` 后，
+如下图所示，在 stable-diffusion-webui 的 `Settings` 页面，点击 1️⃣ → 2️⃣ , 添加 `sd_vae` 后，
 
 点击 `Apply settings` → `Reload UI` 。
 
@@ -72,24 +72,25 @@ stable-diffusion-webui 默认没有启用 `VAE`，需要手动启用。
 ### 4. 生成图片
 
 还不错，不过和模型作者的图片好像还是有差距，可能有些设置没改好，有时间再看看。
-    ![img](beauty_generated_with_vae.png)
+![img](beauty_generated_with_vae.png)
 
-* 修改了下眼睛部分的 prompt，效果好了点。
-    ![img](beauty_generated_with_vae_red_deep_detailed_eyes.png)
+- 修改了下眼睛部分的 prompt，效果好了点。
+  ![img](beauty_generated_with_vae_red_deep_detailed_eyes.png)
 
 ## Appendix
 
-* ADetailer 的作用是什么？
-  * ADetailer 是一个插件，对模型生成的图片中的手部（比如6 手指问题）、脸部的变形等问题进行处理，使得生成的图片更加真实。
-* 为什么要用 VAE？
-  * [VAE(Variational Autoencoder, 变分自编码器)](https://zh.wikipedia.org/wiki/变分自编码器) 是一种算法插件，**加强图片的清晰度和色彩饱和度**， 使得生成的图片更加有质感。
+- ADetailer 的作用是什么？
+  - ADetailer 是一个插件，对模型生成的图片中的手部（比如 6 手指问题）、脸部的变形等问题进行处理，使得生成的图片更加真实。
+- 为什么要用 VAE？
+
+  - [VAE(Variational Autoencoder, 变分自编码器)](https://zh.wikipedia.org/wiki/变分自编码器) 是一种算法插件，**加强图片的清晰度和色彩饱和度**， 使得生成的图片更加有质感。
     比较一下用 VAE 和不用 VAE 的效果就能看出来。
     ![img](sd-vae-comparison.jpeg)
 
-  * 一些有名的 VAE
-    * stability.ai发布的 [vae-ft-mse-840000-ema.safetensors](https://huggingface.co/stabilityai/sd-vae-ft-mse-original)
-      * 效果可以看看这里： https://civitai.com/images/1233747
+  - 一些有名的 VAE
+    - stability.ai 发布的 [vae-ft-mse-840000-ema.safetensors](https://huggingface.co/stabilityai/sd-vae-ft-mse-original)
+      - 效果可以看看这里： https://civitai.com/images/1233747
 
 ## Reference
 
-[WebUIの拡張機能で 手軽にCivitAI のモデルを利用する](https://note.com/astropomeai/n/n137a4d92d18c)
+[WebUI の拡張機能で 手軽に CivitAI のモデルを利用する](https://note.com/astropomeai/n/n137a4d92d18c)

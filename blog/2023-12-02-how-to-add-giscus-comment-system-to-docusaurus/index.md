@@ -5,12 +5,12 @@ description: 介绍如何将Giscus评论系统加入到您的Docusaurus项目中
 authors: [wifecooky]
 tags: [Docusaurus]
 keywords: [Docusaurus, Giscus评论系统]
-images: [docusaurus_cover.svg]
+image: "docusaurus_cover.svg"
 ---
 
 ## 背景
 
-Docusaurus默认没有集成评论系统。
+Docusaurus 默认没有集成评论系统。
 
 在之前的博客中用过 [Giscus](https://giscus.app/) ,
 
@@ -45,7 +45,7 @@ flowchart LR
 
 ## 步骤
 
-* 流程图
+- 流程图
 
 ```mermaid
 flowchart LR
@@ -95,50 +95,50 @@ yarn add @giscus/react mitt
 <summary>点击查看代码</summary>
 
 ```ts title="src/components/GiscusComments/index.tsx" showLineNumbers
-import React from 'react'
-import { useThemeConfig, useColorMode } from '@docusaurus/theme-common'
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
-import { ThemeConfig } from '@docusaurus/preset-classic'
-import BrowserOnly from '@docusaurus/BrowserOnly'
-import Giscus, { GiscusProps } from '@giscus/react'
+import React from "react";
+import { useThemeConfig, useColorMode } from "@docusaurus/theme-common";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import { ThemeConfig } from "@docusaurus/preset-classic";
+import BrowserOnly from "@docusaurus/BrowserOnly";
+import Giscus, { GiscusProps } from "@giscus/react";
 
 interface CustomThemeConfig extends ThemeConfig {
-  giscus: GiscusProps & { darkTheme: string }
+  giscus: GiscusProps & { darkTheme: string };
 }
 
 const defaultConfig: Partial<GiscusProps> & { darkTheme: string } = {
-  id: 'comments',
-  mapping: 'title',
-  reactionsEnabled: '1',
-  emitMetadata: '0',
-  inputPosition: 'top',
-  lang: 'zh-CN',
-  theme: 'light',
-  darkTheme: 'dark',
-}
+  id: "comments",
+  mapping: "title",
+  reactionsEnabled: "1",
+  emitMetadata: "0",
+  inputPosition: "top",
+  lang: "zh-CN",
+  theme: "light",
+  darkTheme: "dark",
+};
 
 export default function Comment(): JSX.Element {
-  const themeConfig = useThemeConfig() as CustomThemeConfig
-  const { i18n } = useDocusaurusContext()
+  const themeConfig = useThemeConfig() as CustomThemeConfig;
+  const { i18n } = useDocusaurusContext();
 
   // merge default config
-  const giscus = { ...defaultConfig, ...themeConfig.giscus }
+  const giscus = { ...defaultConfig, ...themeConfig.giscus };
 
   if (!giscus.repo || !giscus.repoId || !giscus.categoryId) {
     throw new Error(
-      'You must provide `repo`, `repoId`, and `categoryId` to `themeConfig.giscus`.',
-    )
+      "You must provide `repo`, `repoId`, and `categoryId` to `themeConfig.giscus`."
+    );
   }
 
   giscus.theme =
-    useColorMode().colorMode === 'dark' ? giscus.darkTheme : giscus.theme
-  giscus.lang = i18n.currentLocale
+    useColorMode().colorMode === "dark" ? giscus.darkTheme : giscus.theme;
+  giscus.lang = i18n.currentLocale;
 
   return (
     <BrowserOnly fallback={<div>Loading Comments...</div>}>
       {() => <Giscus {...giscus} />}
     </BrowserOnly>
-  )
+  );
 }
 ```
 
