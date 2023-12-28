@@ -34,12 +34,12 @@ func main() {
 
 ## 解决方案
 
-可以使用 `map[string]interface{}` 来解析 JSON 数据，这样就不需要提前定义结构体了。
+可以使用 `map[string]any` (Golang1.18 之前的话 `map[string]interface{}` ) 来解析 JSON 数据，这样就不需要提前定义结构体了。
 
 ```go {3-4} showLineNumbers
 func main() {
     jsonStr := `{"name": "wen", "age": 18}`
-    var user map[string]interface{}
+    var user map[string]any
     json.Unmarshal([]byte(jsonStr), &user)
     fmt.Println(user)
 
@@ -48,3 +48,46 @@ func main() {
     fmt.Println(user["age"])
 }
 ```
+
+## 扩展
+
+如果觉得 `map[string]any` 这种方式解析速度比较慢，可以使用 [jsonparser](https://github.com/buger/jsonparser) 这个库来解析，速度会快很多。
+
+我用 `User` 结构体来测试了一下，解析速度快了 8-9 倍左右 :rocket: 。
+
+其他的比较大的 JSON 数据，解析速度也会快很多，具体可以看下这里的 [benchmark](https://github.com/buger/jsonparser?tab=readme-ov-file#small-payloads)。
+
+| Name                                  | Iterations | ns/op       |
+| ------------------------------------- | ---------- | ----------- |
+| BenchmarkEncodingJsonInterfaceUser-12 | 2540230    | 460.6 ns/op |
+| BenchmarkJsonParserUser-12            | 21413296   | 55.91 ns/op |
+
+<details>
+<summary>查看测试代码</summary>
+
+```go
+// Just for emulating field access, so it will not throw "evaluated but not used"
+func nothing(_ ...interface{}) {}
+
+// 使用 jsonparser
+func BenchmarkJsonParserUser(b *testing.B) {
+    for i := 0; i < b.N; i++ {
+        jsonparser.Get(user, "name")
+        jsonparser.Get(user, "age")
+        nothing()
+    }
+}
+
+// 使用 map[string]any
+func BenchmarkEncodingJsonInterfaceUser(b *testing.B) {
+    for i := 0; i <details b.N; i++ {
+        var data interface{}
+        json.Unmarshal(user, &data)
+        m := data.(map[string]interface{})
+
+        nothing(m["name"].(string), m["age"])
+    }
+}
+```
+
+</details>
