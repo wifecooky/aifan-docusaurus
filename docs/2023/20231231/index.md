@@ -92,13 +92,35 @@ AnyDoor 是一种基于扩散的图像生成器，它的主要功能是将目标
 
 > [Reference: X @xiaohuggg](https://twitter.com/xiaohuggg/status/1739259052448944139)
 
+### 5. [OctoSQL](https://github.com/cube2222/octosql): 用 SQL 文法查询 csv, json 文件
+
+```bash
+octosql "SELECT * FROM ./myfile.json"
+
+octosql "SELECT invoices.id, address, amount
+         FROM invoices.csv JOIN db.customers ON invoices.customer_id = customers.id
+         ORDER BY amount DESC"
+```
+
+![img](https://github.com/cube2222/octosql/blob/main/images/octosql-demo.gif?raw=true)
+
 ## 技术知识
 
 ### 1. 数据结构与算法教程: hello-algo
 
 [数据结构与算法教程](https://www.hello-algo.com/) 讲解了数据结构与算法的基础知识, 图文搭配，浅显易懂。
 
-### 2. Top 9 Engineering Blogs?
+### 2. labuladong 的算法小抄: [fucking-algorithm](https://github.com/labuladong/fucking-algorithm)
+
+> 总共 60 多篇原创文章，都是基于 LeetCode 的题目，涵盖了所有题型和技巧，而且一定要做到举一反三，通俗易懂，绝不是简单的代码堆砌，后面有目录。
+
+通过刷 LeetCode 的题目来学习数据结构和算法。
+
+配有可交互的代码可视化动画，推荐。
+
+![img](fucking-algorithm.png)
+
+### 3. Top 9 Engineering Blogs?
 
 ![img](top-9-engineering-blogs.webp)
 
@@ -114,7 +136,7 @@ AnyDoor 是一种基于扩散的图像生成器，它的主要功能是将目标
 
 > Reference: [bytebytego](https://blog.bytebytego.com/i/140010110/top-engineering-blog-favorites)
 
-### 3. 对称加密和非对称加密的区别 (Symmetric encryption vs asymmetric encryption)
+### 4. 对称加密和非对称加密的区别 (Symmetric encryption vs asymmetric encryption)
 
 ![img](symmetric-encryption-vs-asymmetric-encryption.png)
 
