@@ -32,6 +32,7 @@ jobs:
             git checkout main
 
             # Merge the weekly branch into main
+            git fetch origin ${branch_name}
             git merge ${branch_name} --no-ff -m "Merge ${branch_name} into main"
 
             # Push changes to GitHub
