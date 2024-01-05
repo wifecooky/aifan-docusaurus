@@ -121,3 +121,9 @@ React 重构了官方文档，新文档中把很多容易[踩的坑用例子](ht
 每次加入 15.87%的新陌生数据，剩下约 85%是见过的数据，模型的学习速度最快。
 
 > Ref: [X @fuxiangPro](https://twitter.com/fuxiangPro/status/1742448244423360647)
+
+### 4. 日本[白马村](https://zh.wikipedia.org/wiki/白馬村)的春夏秋冬
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2mpbOgC1dBs?si=guSsWAdjV7xtZoUV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+[異世界ひとり旅 ～ Deep spot Japan ～](https://www.youtube.com/@japan-travel) 这个频道拍摄了日本各地的美景，画质非常棒，推荐。
