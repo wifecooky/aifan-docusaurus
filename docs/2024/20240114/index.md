@@ -17,6 +17,14 @@ tags:
 
 ## 语言学习
 
+### 1. 用了这些高级词后，我的英语开挂了
+
+[英语兔](https://www.youtube.com/@yingyutu) 整理的一些高级词汇，推荐给有小孩的家长吧 :smile:, 写作的时候可以用到。
+
+- 视频地址：[YouTube](https://www.youtube.com/watch?v=a8McQKeVhOg)
+
+- PDF 下载地址：[夸克网盘](https://pan.quark.cn/s/49bf94047def)
+
 ## 生活趣味
 
 ### 1. 新疆阿勒泰
