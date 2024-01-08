@@ -5,12 +5,12 @@ on:
       - main
     paths-ignore:
       - .github/**
-  pull_request:
-    branches:
-      - main
-    types: [closed]
-    paths-ignore:
-      - .github/**
+  # pull_request:
+  #   branches:
+  #     - main
+  #   types: [closed]
+  #   paths-ignore:
+  #     - .github/**
   workflow_dispatch:
 jobs:
   build:

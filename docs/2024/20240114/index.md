@@ -14,6 +14,12 @@ draft: true
 
 ## 效率工具
 
+### 1. Swagger/OpenAPI 文档编辑/查看工具: [scalar](https://github.com/scalar/scalar)
+
+Scalar 不仅支持 API 文档预览和编辑，还能作为文档组件嵌入各种前端框架（React/Vue/Express...）。
+
+![img](scalar-swagger.png)
+
 ## 技术知识
 
 ## 语言学习
