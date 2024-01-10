@@ -31,7 +31,7 @@ jobs:
             # Checkout main branch
             git checkout main
 
-            # Merge the weekly branch into main
+            # Merge the weekly branch into main branch
             git fetch origin ${branch_name}
             git merge ${branch_name}
 
