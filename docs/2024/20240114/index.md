@@ -9,6 +9,18 @@ tags:
 
 ![img](cover.jpg)
 
+## 本周新闻
+
+### 1. 像买股票一样买比特币: 比特币现货 ETF
+
+比特币现货 ETF 通过，加密行业开启新篇章。
+
+北京时间 1 月 11 日凌晨 4 时，美国证券交易委员会（SEC）同时通过了 11 支现货比特币 ETF。
+
+![img](bitcoin-etf.jpeg)
+
+> [Reference](https://new.qq.com/rain/a/20240111A01RJ500)
+
 ## 效率工具
 
 ### 1. Swagger/OpenAPI 文档编辑/查看工具: [scalar](https://github.com/scalar/scalar)
