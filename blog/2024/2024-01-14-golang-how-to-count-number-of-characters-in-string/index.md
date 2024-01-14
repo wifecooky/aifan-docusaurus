@@ -62,12 +62,12 @@ emoji 可以从这里[emojipedia](https://emojipedia.org/backhand-index-pointing
 
 这是因为有些 emoji 是多个 unicode 字符 (Code Points) 组合而成的，而 `utf8.RuneCountInString()` 函数只会计算 unicode 字符的数量。
 
-| 术语                        | 描述                                                                                                                     |
-| --------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| Bytes（字节）               | 计算数据存储的最小单元，通常是 8 位二进制。                                                                              |
-| Code Units（编码单元）      | 在编码方案中，用于表示一个字符的固定大小的单元。在 UTF-8 中，一个 Code Unit 是 8 位，而在 UTF-16 中，是 16 位。          |
-| Code Points（码点）         | 在 Unicode 标准中，每个字符都被分配一个唯一的代码点，是一个用来标识字符的数字。例如，拉丁字母"A"的代码点是 U+0041。      |
-| Grapheme Clusters（字符簇） | 表示语言中可感知的最小字符单元，通常是一个或多个 Code Points 组成的序列。例如，字母加重音符可能是一个 Grapheme Cluster。 |
+| Term              | Description                                                                                                                                                                                 |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bytes             | The smallest unit used to measure data storage, typically 8 bits in binary.                                                                                                                 |
+| Code Units        | Fixed-size units used in encoding schemes to represent a character. In UTF-8, a Code Unit is 8 bits, and in UTF-16, it's 16 bits.                                                           |
+| Code Points       | In the Unicode standard, each character is assigned a unique code point, which is a numerical identifier for the character. For example, the code point for the Latin letter "A" is U+0041. |
+| Grapheme Clusters | Represent the smallest units perceivable in a language, typically a sequence of one or more Code Points. For instance, a letter with an accent mark might be a Grapheme Cluster.            |
 
 比如 1️⃣ 这个 emoji，它是由 3 个 Code Points 组成的，分别是：
 
