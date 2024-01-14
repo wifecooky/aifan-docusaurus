@@ -62,6 +62,13 @@ func main() {
 
 This is because some emoji are composed of multiple unicode characters (Code Points), while the `utf8.RuneCountInString()` function only counts the number of unicode characters.
 
+| Term              | Description                                                                                                                                                                                 |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bytes             | The smallest unit used to measure data storage, typically 8 bits in binary.                                                                                                                 |
+| Code Units        | Fixed-size units used in encoding schemes to represent a character. In UTF-8, a Code Unit is 8 bits, and in UTF-16, it's 16 bits.                                                           |
+| Code Points       | In the Unicode standard, each character is assigned a unique code point, which is a numerical identifier for the character. For example, the code point for the Latin letter "A" is U+0041. |
+| Grapheme Clusters | Represent the smallest units perceivable in a language, typically a sequence of one or more Code Points. For instance, a letter with an accent mark might be a Grapheme Cluster.            |
+
 For example, 1️⃣ this emoji is composed of 3 Code Points, which are:
 
 ![img](./keycap-digit-one-code-points.png)
