@@ -1,0 +1,8 @@
+
+# 用 [Markdown Table](https://marketplace.visualstudio.com/items?itemName=TakumiI.markdowntable) 渲染才能 自动 结合 cell
+
+| Term       |    Representation     |        |      |      |        |      |      | Length        |
+| :--------- | :-------------------: | :----: | :--- | :--: | :----: | ---- | ---- | ------------- |
+| Grapheme   | 1️⃣ (Keycap Digit One) |        |      |      |        |      |      | 1 Grapheme    |
+| Code Point |         U+31          | U+FE0F |      |      | U+20E3 |      |      | 3 Code points |
+| UTF-8      |         0x31          |  0xEF  | 0xB8 | 0x8F |  0xE2  | 0x83 | x0A3 | 7 bytes       |
