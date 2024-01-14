@@ -33,7 +33,8 @@ jobs:
 
             # Merge the weekly branch into main branch
             git fetch origin ${branch_name}
-            git merge ${branch_name}
+            # Merge the weekly branch into main branch, resolving conflicts if any
+            git merge -X theirs --no-edit ${branch_name}
 
             # Push changes to GitHub
             git push origin main
