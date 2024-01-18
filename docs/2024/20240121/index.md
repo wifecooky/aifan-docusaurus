@@ -45,6 +45,12 @@ tags:
 
 [English Speaking Success @YouTube](https://www.youtube.com/@EnglishSpeakingSuccess)
 
+### 2. [日语] パレイドリア
+
+パレイドリア【pareidolia】: 一种心理现象，指的是在模糊的图像中看到熟悉的事物。
+
+![img](pareidolia.png)
+
 ## 生活趣味
 
 ### 1. 皮卡丘书签折纸（Pikachu Bookmark Origami）
@@ -58,3 +64,17 @@ tags:
 ![img](igniting-gas-stove-by-generating-static-energy.png)
 
 > Reference: [Igniting gas stove by generating static energy @X](https://twitter.com/engineers_feed/status/1746168130685079599)
+
+### 3. 如何证明 `1/4 + 1/16 + 1/64 + ... = 1/3`
+
+![img](./visual-infinite-sum.png)
+
+> Reference: [@MathVisualProofs @YouTube](https://www.youtube.com/shorts/a41V8L5nNIU)
+
+### 4. 能进行光合作用的生物: 叶羊
+
+[叶羊（leaf sheep）](https://en.wikipedia.org/wiki/Costasiella_kuroshimae) 是一种能进行光合作用的生物，
+
+它的身体上有很多绿色的小颗粒，这些小颗粒就是叶绿体，能够进行光合作用。
+
+> Reference: [叶羊（leaf sheep） @X](https://twitter.com/newsNZcn/status/1747729251145781631)
