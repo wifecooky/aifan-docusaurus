@@ -39,8 +39,6 @@ jobs:
             sleep 15
             # Merge the pull request using GitHub CLI
             gh pr merge --auto --squash
-            # Push changes to main to reflect the merge
-            git push origin main
           else
             echo "Weekly branch '${branch_name}' does not exist."
           fi
