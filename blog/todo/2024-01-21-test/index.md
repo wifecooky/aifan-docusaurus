@@ -1,6 +1,6 @@
 ---
-slug: test-ci
-title: "testci"
+slug: test-ci-a-b
+title: "testcia"
 description: "test ci"
 authors: [wifecooky]
 tags: [GitHub Actions]
