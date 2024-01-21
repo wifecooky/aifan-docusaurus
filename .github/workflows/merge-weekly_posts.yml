@@ -17,11 +17,9 @@ jobs:
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
 
-      - name: Merge weekly branches
+      - name: Create and merge PR
         run: |
           # Get the current date in the format 'YYYY-MM-DD'
-          # 時差を考慮して日付に1Day足す
-          # current_date=$(date -d "tomorrow" +%Y-%m-%d)
           current_date=$(date +%Y-%m-%d)
 
           # Construct the branch name
@@ -29,19 +27,16 @@ jobs:
 
           # Check if the branch exists
           if [[ -n "$(git ls-remote origin $branch_name)" ]]; then
-            # Configure Git to use 'ours' strategy
-            git config merge.ours.driver true
-            git config merge.ours.name "keep ours merge driver"
+            # Configure Git to use 'theirs' strategy
+            git checkout ${branch_name}
+            # Create a pull request using GitHub CLI
+            gh pr create --base main --head $branch_name --title "weekly post PR" --body "This is a PR for weekly post changes."
 
-            # Checkout main branch
-            git checkout main
-
-            # Merge the weekly branch into main branch
-            git fetch origin ${branch_name}
-            # Merge the weekly branch into main branch, resolving conflicts if any
-            git merge -s ours ${branch_name}
-
-            # Push changes to GitHub
+            # Wait for a few seconds to allow GitHub to process the PR creation
+            sleep 15
+            # Merge the pull request using GitHub CLI
+            gh pr merge --auto --squash
+            # Push changes to main to reflect the merge
             git push origin main
           else
             echo "Weekly branch '${branch_name}' does not exist."
