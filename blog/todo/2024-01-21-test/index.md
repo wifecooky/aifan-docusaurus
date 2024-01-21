@@ -1,5 +1,5 @@
 ---
-slug: test-ci-a-b
+slug: test-ci-a-b-c
 title: "testcia"
 description: "test ci"
 authors: [wifecooky]
