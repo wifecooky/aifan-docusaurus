@@ -18,6 +18,8 @@ jobs:
           git config --global user.name "GitHub Actions"
 
       - name: Create and merge PR
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           # Get the current date in the format 'YYYY-MM-DD'
           current_date=$(date +%Y-%m-%d)
@@ -31,12 +33,12 @@ jobs:
           if [[ -n "$(git ls-remote origin $branch_name)" ]]; then
             git checkout ${branch_name}
             # Create a pull request using GitHub CLI
-            gh pr create --base main --head $branch_name --title "weekly post PR" --body "This is a PR for weekly post changes."
+            gh pr create --base main --head $branch_name --title "weekly post PR" --body "This is a PR for weekly post changes." --token $GH_TOKEN
 
             # Wait for a few seconds to allow GitHub to process the PR creation
             sleep 15
             # Merge the pull request using GitHub CLI
-            gh pr merge --auto --squash
+            gh pr merge --auto --squash --token $GH_TOKEN
             # Push changes to main to reflect the merge
             git push origin main
           else
