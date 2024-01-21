@@ -28,6 +28,7 @@ jobs:
           # Check if the branch exists
           if [[ -n "$(git ls-remote origin $branch_name)" ]]; then
             # Configure Git to use 'theirs' strategy
+            git fetch origin ${branch_name}
             git checkout ${branch_name}
             # Create a pull request using GitHub CLI
             gh pr create --base main --head $branch_name --title "weekly post PR" --body "This is a PR for weekly post changes."
