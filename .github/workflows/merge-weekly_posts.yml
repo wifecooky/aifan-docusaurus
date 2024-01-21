@@ -38,7 +38,7 @@ jobs:
             # Wait for a few seconds to allow GitHub to process the PR creation
             sleep 15
             # Merge the pull request using GitHub CLI
-            gh pr merge --auto --squash
+            gh pr merge --squash
           else
             echo "Weekly branch '${branch_name}' does not exist."
           fi
