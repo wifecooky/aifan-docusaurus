@@ -1,7 +1,7 @@
 name: Merge Weekly Posts Branches
 on:
   schedule:
-    - cron: "30 16 * * sat" # Every Saturday at 16:30 UTC (1:30 AM JST)
+    - cron: "00 00 * * sun" # Every Sunday at 00:00 UTC (9:00 AM JST)
   workflow_dispatch:
 
 jobs:
@@ -21,20 +21,25 @@ jobs:
         run: |
           # Get the current date in the format 'YYYY-MM-DD'
           # 時差を考慮して日付に1Day足す
-          current_date=$(date -d "tomorrow" +%Y-%m-%d)
+          # current_date=$(date -d "tomorrow" +%Y-%m-%d)
+          current_date=$(date +%Y-%m-%d)
 
           # Construct the branch name
           branch_name="weekly/${current_date}"
 
           # Check if the branch exists
           if [[ -n "$(git ls-remote origin $branch_name)" ]]; then
+            # Configure Git to use 'ours' strategy
+            git config merge.ours.driver true
+            git config merge.ours.name "keep ours merge driver"
+
             # Checkout main branch
             git checkout main
 
             # Merge the weekly branch into main branch
             git fetch origin ${branch_name}
             # Merge the weekly branch into main branch, resolving conflicts if any
-            git merge -X theirs --no-edit ${branch_name}
+            git merge -s ours ${branch_name}
 
             # Push changes to GitHub
             git push origin main
