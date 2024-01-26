@@ -64,6 +64,14 @@ function isNumber(value) {
 
 > Reference: [JavaScript WTF: Why does every() return true for empty arrays?](https://humanwhocodes.com/blog/2023/09/javascript-wtf-why-does-every-return-true-for-empty-array/)
 
+### 4. [用 Prisma 实现分页的方法](https://www.prisma.io/docs/orm/prisma-client/queries/pagination)
+
+Prisma ORM 支持 2 种分页模式：
+✅ [基于偏移量 (Offset pagination)](https://www.prisma.io/docs/orm/prisma-client/queries/pagination#offset-pagination)
+✅ [基于光标 (Cursor-based pagination)](https://www.prisma.io/docs/orm/prisma-client/queries/pagination#cursor-based-pagination)
+
+> Reference: [Pagination with Prisma Client @prisma](https://twitter.com/prisma/status/1750175443016183923)
+
 ## 语言学习
 
 ### 1. [日语] 盲判【めくらばん】
