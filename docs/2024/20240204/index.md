@@ -11,8 +11,6 @@ tags:
 
 ![img](cover.jpg)
 
-## 本周新闻
-
 ## 效率工具
 
 ### 1. [中华诗词大典](https://chinese-poetry.netlify.app/)
