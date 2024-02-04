@@ -37,7 +37,7 @@ BTW, 其数据来源于[中华古诗词数据库 chinese-poetry/chinese-poetry](
 
 ### 3. 霞鹜文楷轻便版（Lite 版）
 
-为便于开发者将字体嵌入软件中，[霞鹜文楷](<(https://github.com/lxgw/LxgwWenKai)>)提供了[精简版（Lite 版）](https://github.com/lxgw/LxgwWenKai-Lite)。
+为便于开发者将字体嵌入软件中，[霞鹜文楷](https://github.com/lxgw/LxgwWenKai)提供了[精简版（Lite 版）](https://github.com/lxgw/LxgwWenKai-Lite)。
 
 与霞鹜文楷完整版相比，精简版剔除完整版增补的一些较不常用的汉字及谚文字符，适合嵌入于 APP 中。
 
@@ -65,7 +65,7 @@ BTW, 其数据来源于[中华古诗词数据库 chinese-poetry/chinese-poetry](
 
 > Implementing a ChatGPT-like LLM from scratch, step by step
 
-作者把书中的代码开源在了 GitHub 上：[LLMs-from-scratch](LLMs-from-scratch)。
+作者把书中的代码开源在了 GitHub 上：[LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)。
 
 ### 2. "给新人程序员的一些建议"
 
