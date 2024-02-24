@@ -5,9 +5,9 @@ tags:
   - 遥遥周刊
 ---
 
-## 封面图 :
+## 封面图 : 东京神田的一家传统和食餐馆前的桃花？
 
-![img](cover.jpg)
+![img](tokyo-restaurant.jpg)
 
 ## 本周新闻
 
@@ -53,6 +53,7 @@ Toolong 可以通过自动检测时间戳合并日志文件，并且支持自动
 
 内容包括：
 
+```text
 1、astro + astro starlight 用于文档
 2、supabase、clerk、lucia 用于身份验证
 3、tRPC + Prisma 用于全栈应用
@@ -63,6 +64,7 @@ Toolong 可以通过自动检测时间戳合并日志文件，并且支持自动
 8、Biome 和 oxc 值得期待
 9、shadcn/UI 流行
 10、StyleX 编译时 CSS-in-JS 方案，解 SSR 性能问题
+```
 
 ### 2. Sora 学习手册
 
