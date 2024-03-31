@@ -155,7 +155,7 @@ const config = {
           },
           // blog rss
           {
-            to: '/blog/rss.xml',
+            href: '/blog/rss.xml',
             label: 'RSS',
             position: 'right',
           },
