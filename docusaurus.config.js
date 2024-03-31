@@ -153,6 +153,12 @@ const config = {
             label: 'Tags',
             position: 'left',
           },
+          // blog rss
+          {
+            to: '/blog/rss.xml',
+            label: 'RSS',
+            position: 'right',
+          },
         ],
       },
       footer: {
