@@ -95,7 +95,6 @@ const config = {
           async sidebarItemsGenerator({defaultSidebarItemsGenerator, ...args}) {
             const sidebarItems = await defaultSidebarItemsGenerator(args);
             return reverseSidebarItems(sidebarItems);
-            return sidebarItems;
           },
         },
         blog: {
