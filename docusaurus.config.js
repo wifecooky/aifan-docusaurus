@@ -158,6 +158,7 @@ const config = {
             href: '/blog/rss.xml',
             label: 'RSS',
             position: 'right',
+            target: '_blank', // Open the link in a new tab/window
           },
         ],
       },
