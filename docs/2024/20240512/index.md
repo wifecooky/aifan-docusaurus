@@ -41,7 +41,7 @@ tsfresh 是一个用于时间序列数据的特征提取工具，可以用于去
 
 - 提供多种视图，Grid、Form、Kanban、Gallery 等
 
-![img](teable.png)
+![img](Teable.png)
 
 ## 技术知识
 
