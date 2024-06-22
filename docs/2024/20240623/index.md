@@ -9,7 +9,11 @@ tags:
 
 手机不小心掉进泳池里打不开了，这周就借用推友的图片吧。🙏
 
+<<<<<<< HEAD
 ![img](绣球花.jpg)
+=======
+![img](绣球花.png)
+>>>>>>> 3ccb338 (add weekly post)
 
 > Ref: [绣球花](https://x.com/haskap1017/status/1804290801893281844)
 
@@ -96,7 +100,11 @@ https://github.com/haoel/haoel.github.io
 
 图中两个没有飞机飞的“洞”，一个是青藏高原，一个是乌克兰。
 
+<<<<<<< HEAD
 ![img](Flightradar24.jpg)
+=======
+![img](Flightradar24.png)
+>>>>>>> 3ccb338 (add weekly post)
 
 > Ref: [Flightradar24](https://x.com/hu_lalalalala/status/1803012865777172494/photo/1)
 
