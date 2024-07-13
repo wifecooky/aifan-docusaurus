@@ -12,8 +12,6 @@ tags:
 > Ref: [引用自于这里](https://x.com/Moral_Wisdom_/status/1809972676930261117)
 > 图片是用 ChatGPT 基于引用中的图片生成的。
 
-## 本周新闻
-
 ## 效率工具
 
 ### 1. 浏览器扩展开发的模板
@@ -41,7 +39,29 @@ wxt 的扩展开发框架的模板: https://github.com/mefengl/wxt-starter
 
 ## 技术知识
 
-## 语言学习
+### 1. Rust 的教程「Rust explained using easy English」
+
+[Rust explained using easy English](https://github.com/Dhghomon/easy_rust) 是一个用简单英语解释 Rust 的教程。
+
+![img](easy_rust.png)
+
+### 2. 基于交互式，可实操的 Demo 理解 CNN/Transformer 的工作原理
+
+[cnn-explainer](https://github.com/poloclub/cnn-explainer) 是一个基于交互式，可实操的 Demo，用于理解 CNN/Transformer 的工作原理。
+
+- 清晰易懂了解每一层的工作原理
+- 可以细调每一层参数，查看效果
+- 提供 5+ 示例解决实际场景下的模型组成
+
+Live Demo: [cnn-explainer](https://poloclub.github.io/cnn-explainer/)
+
+> Ref: [cnn-explainer](https://x.com/tuturetom/status/1810704272151163316)
+
+### 3. Sony 的关于深度学习的教程: Deep Learning 入门
+
+油管（YouTube）视频地址: [Deep Learning 入门](https://www.youtube.com/playlist?list=PLg1wtJlhfh23pjdFv4p8kOBYyTRvzseZ3)
+
+![img](DeepLearning入门.png)
 
 ## 生活趣味
 
