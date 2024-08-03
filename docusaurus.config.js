@@ -77,7 +77,11 @@ const config = {
           }
           return undefined; // Return a falsy value: no redirect created
         },
-      },
+      }
+    ],
+    [
+      '@gracefullight/docusaurus-plugin-google-adsense',
+      { adClient: "ca-pub-6878702077547492" },
     ]
   ],
 
