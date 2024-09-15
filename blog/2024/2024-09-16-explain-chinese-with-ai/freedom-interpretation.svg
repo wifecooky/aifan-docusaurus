@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+  <rect width="400" height="600" fill="#FAFAFA" />
+  
+  <!-- 背景装饰：随机几何图形 -->
+  <circle cx="50" cy="50" r="30" fill="#E0E0E0" />
+  <rect x="330" y="500" width="50" height="50" fill="#D3D3D3" />
+  <polygon points="200,10 220,50 180,50" fill="#C0C0C0" />
+  
+  <!-- 标题 -->
+  <text x="200" y="80" font-family="毛笔楷体" font-size="40" text-anchor="middle" fill="#333333">自由</text>
+  
+  <!-- 英文和日语翻译 -->
+  <text x="200" y="120" font-family="Arial" font-size="20" text-anchor="middle" fill="#666666">Freedom 自由</text>
+  
+  <!-- 主要解释文本 -->
+  <text x="40" y="180" font-family="汇文明朝体" font-size="16" fill="#4A4A4A">
+    <tspan x="40" dy="0">自由，这个词就像是一个华丽的鸟笼。</tspan>
+    <tspan x="40" dy="24">从远处看，它金光闪闪，令人羡慕。</tspan>
+    <tspan x="40" dy="24">可当你靠近了，才发现里面的鸟儿</tspan>
+    <tspan x="40" dy="24">不过是在一个稍大一点的笼子里跳来跳去罢了。</tspan>
+  </text>
+  
+  <!-- 简化的鸟笼图案 -->
+  <rect x="150" y="300" width="100" height="150" fill="none" stroke="#333333" stroke-width="2" />
+  <line x1="175" y1="300" x2="175" y2="450" stroke="#333333" stroke-width="2" />
+  <line x1="200" y1="300" x2="200" y2="450" stroke="#333333" stroke-width="2" />
+  <line x1="225" y1="300" x2="225" y2="450" stroke="#333333" stroke-width="2" />
+  <circle cx="200" cy="375" r="15" fill="#333333" /> <!-- 简化的鸟 -->
+  
+  <!-- 极简总结 -->
+  <text x="200" y="550" font-family="Arial" font-size="18" text-anchor="middle" fill="#333333">
+    自由：精心设计的幻觉
+  </text>
+</svg>
