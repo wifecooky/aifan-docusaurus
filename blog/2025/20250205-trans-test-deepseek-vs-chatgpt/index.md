@@ -8,8 +8,6 @@ keywords: [DeepSeek, ChatGPT, 翻译, 中英翻译]
 image: deepseekvschatgpt.jpg
 ---
 
-# 中英翻译场景实测：DeepSeek 能否超越 ChatGPT？
-
 ## 测试背景
 
 - **测试对象**：ChatGPT (O1 版)、ChatGPT (O3 mini 版)、DeepSeek-R1
